@@ -1,0 +1,834 @@
+[
+  {
+    "prompt": "\u00bfD\u00f3nde debo consultar sobre la reparaci\u00f3n de una calle?",
+    "response": "Debes consultar en la Direcci\u00f3n de Obras Municipales, ya que es la unidad encargada de velar por el cumplimiento de las disposiciones de la Ley General de Urbanismo y Construcciones, y de dirigir las construcciones que sean responsabilidad municipal."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n es responsable de la gesti\u00f3n financiera de la municipalidad?",
+    "response": "La Direcci\u00f3n de Administraci\u00f3n y Finanzas es la responsable de la gesti\u00f3n financiera de la municipalidad, incluyendo la administraci\u00f3n del personal, la elaboraci\u00f3n del presupuesto municipal y el control de la gesti\u00f3n financiera de las empresas municipales."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo dirigirme para obtener una licencia de conducir?",
+    "response": "Debes dirigirte a la Direcci\u00f3n de Tr\u00e1nsito y Transporte P\u00fablico, ya que es la unidad encargada de otorgar y renovar licencias para conducir veh\u00edculos."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n ambiental en la comuna?",
+    "response": "La Direcci\u00f3n de Medio Ambiente, Aseo y Ornato es la encargada de impulsar y consolidar la gesti\u00f3n medio ambiental de la comuna, incluyendo la elaboraci\u00f3n de pol\u00edticas ambientales y la promoci\u00f3n de h\u00e1bitos sustentables."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo presentar una queja sobre el servicio de recolecci\u00f3n de basura?",
+    "response": "Puedes presentar tu queja en la Direcci\u00f3n de Servicios Generales, ya que es la unidad responsable del aseo de las v\u00edas p\u00fablicas y del servicio de extracci\u00f3n de basura."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n es responsable de la planificaci\u00f3n urbana en la comuna?",
+    "response": "La Secretar\u00eda Comunal de Planificaci\u00f3n es la responsable de asesorar en la formulaci\u00f3n de pol\u00edticas, planes y proyectos de desarrollo de la comuna, incluyendo la planificaci\u00f3n urbana."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo contactar para obtener informaci\u00f3n sobre subvenciones municipales?",
+    "response": "Debes contactar a la Direcci\u00f3n de Desarrollo Comunitario, ya que es la unidad encargada de gestionar y canalizar la entrega de beneficios a los grupos prioritarios, incluyendo subvenciones."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la seguridad p\u00fablica en la comuna?",
+    "response": "La Direcci\u00f3n de Seguridad P\u00fablica es la encargada de colaborar con el Alcalde en la elaboraci\u00f3n del plan comunal de seguridad p\u00fablica y de recibir y analizar informaci\u00f3n relativa a la seguridad p\u00fablica comunal."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre el presupuesto municipal?",
+    "response": "Puedes obtener informaci\u00f3n sobre el presupuesto municipal en la Direcci\u00f3n de Administraci\u00f3n y Finanzas, que es la unidad encargada de la administraci\u00f3n financiera y de informar trimestralmente al Concejo sobre los pasivos acumulados."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n es responsable de la atenci\u00f3n al vecino en la municipalidad?",
+    "response": "La Secretar\u00eda Municipal es la responsable de dirigir el sistema de atenci\u00f3n a la comunidad a trav\u00e9s de los canales institucionales, como el Centro de Atenci\u00f3n al Vecino y la Oficina de Partes."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo contactar para obtener un permiso de construcci\u00f3n?",
+    "response": "Debes contactar a la Direcci\u00f3n de Obras Municipales, ya que es la unidad encargada de otorgar los permisos de edificaci\u00f3n y de fiscalizar la ejecuci\u00f3n de obras."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la educaci\u00f3n y cultura en la comuna?",
+    "response": "La Direcci\u00f3n de Desarrollo Comunitario es la encargada de proponer y ejecutar medidas relacionadas con la educaci\u00f3n y cultura en la comuna."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre las pol\u00edticas de salud municipal?",
+    "response": "Puedes obtener informaci\u00f3n sobre las pol\u00edticas de salud municipal en la Direcci\u00f3n de Servicios Incorporados a la Gesti\u00f3n, que asesora al Alcalde y al Concejo en la formulaci\u00f3n de pol\u00edticas relativas a la salud."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n es responsable de la transparencia en la municipalidad?",
+    "response": "La Secretar\u00eda Municipal es la responsable de velar por la adecuada y oportuna inclusi\u00f3n de informaci\u00f3n en cuanto a transparencia activa y de coordinar la respuesta a las solicitudes de informaci\u00f3n."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo dirigirme para obtener un permiso de alcohol?",
+    "response": "Debes dirigirte al Alcalde, ya que es la autoridad encargada de otorgar, renovar y trasladar patentes de alcoholes, previa consulta a las juntas de vecinos respectivas."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n de parques y \u00e1reas verdes en la comuna?",
+    "response": "La Direcci\u00f3n de Medio Ambiente, Aseo y Ornato es la encargada de administrar los parques urbanos y naturales de la comuna, protegiendo la biodiversidad y asegurando espacios de recreaci\u00f3n."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo presentar una queja sobre el tr\u00e1nsito en la comuna?",
+    "response": "Puedes presentar tu queja en la Direcci\u00f3n de Tr\u00e1nsito y Transporte P\u00fablico, que es la unidad encargada de aplicar las normas generales sobre tr\u00e1nsito y transporte p\u00fablicos en la comuna."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n es responsable de la gesti\u00f3n de recursos humanos en la municipalidad?",
+    "response": "La Direcci\u00f3n de Administraci\u00f3n y Finanzas es la responsable de asesorar al Alcalde en la administraci\u00f3n del personal de la municipalidad."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo contactar para obtener informaci\u00f3n sobre proyectos de inversi\u00f3n municipal?",
+    "response": "Debes contactar a la Secretar\u00eda Comunal de Planificaci\u00f3n, ya que es la unidad encargada de asesorar en la formulaci\u00f3n de pol\u00edticas, planes y proyectos de desarrollo de la comuna."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la fiscalizaci\u00f3n de las obras municipales?",
+    "response": "La Direcci\u00f3n de Control es la encargada de realizar la auditor\u00eda operativa interna de la municipalidad, incluyendo la fiscalizaci\u00f3n de la legalidad de las actuaciones municipales y el control de la ejecuci\u00f3n financiera y presupuestaria."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre las pol\u00edticas de vivienda en la comuna?",
+    "response": "Puedes obtener informaci\u00f3n sobre las pol\u00edticas de vivienda en la Direcci\u00f3n de Desarrollo Comunitario, que es la unidad encargada de proponer y ejecutar medidas relacionadas con la vivienda en la comuna."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n es responsable de la gesti\u00f3n de los recursos materiales en la municipalidad?",
+    "response": "La Direcci\u00f3n de Administraci\u00f3n y Finanzas es la responsable de recepcionar, custodiar y proveer a las unidades municipales de recursos materiales, bienes muebles y otros insumos necesarios para su funcionamiento."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo dirigirme para obtener un permiso de publicidad en la v\u00eda p\u00fablica?",
+    "response": "Debes dirigirte a la Direcci\u00f3n de Obras Municipales, ya que es la unidad encargada de otorgar permisos relacionados con obras y construcciones, incluyendo la publicidad en la v\u00eda p\u00fablica."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n de los servicios de salud en la comuna?",
+    "response": "La Direcci\u00f3n de Servicios Incorporados a la Gesti\u00f3n es la encargada de asesorar al Alcalde y al Concejo en la formulaci\u00f3n de pol\u00edticas relativas a los servicios de salud en la comuna."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo presentar una queja sobre el servicio de transporte p\u00fablico?",
+    "response": "Puedes presentar tu queja en la Direcci\u00f3n de Tr\u00e1nsito y Transporte P\u00fablico, que es la unidad encargada de aplicar las normas generales sobre transporte p\u00fablico en la comuna."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n es responsable de la gesti\u00f3n de los programas sociales en la comuna?",
+    "response": "La Direcci\u00f3n de Desarrollo Comunitario es la responsable de proponer, dise\u00f1ar, programar y ejecutar programas sociales en la comuna."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo contactar para obtener informaci\u00f3n sobre las pol\u00edticas de educaci\u00f3n municipal?",
+    "response": "Debes contactar a la Direcci\u00f3n de Servicios Incorporados a la Gesti\u00f3n, que asesora al Alcalde y al Concejo en la formulaci\u00f3n de pol\u00edticas relativas a la educaci\u00f3n en la comuna."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n de los recursos naturales en la comuna?",
+    "response": "La Direcci\u00f3n de Medio Ambiente, Aseo y Ornato es la encargada de impulsar y consolidar la gesti\u00f3n medio ambiental de la comuna, incluyendo la protecci\u00f3n de los recursos naturales."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre las pol\u00edticas de turismo en la comuna?",
+    "response": "Puedes obtener informaci\u00f3n sobre las pol\u00edticas de turismo en la Direcci\u00f3n de Desarrollo Comunitario, que es la unidad encargada de proponer y ejecutar medidas relacionadas con el turismo en la comuna."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n es responsable de la gesti\u00f3n de los servicios de emergencia en la comuna?",
+    "response": "La Administraci\u00f3n Municipal es la responsable de organizar, en caso de emergencia, los medios humanos y materiales para prestar auxilio a la comunidad, en virtud de orden o disposici\u00f3n Alcaldicia."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo dirigirme para obtener un permiso de ocupaci\u00f3n de la v\u00eda p\u00fablica?",
+    "response": "Debes dirigirte a la Direcci\u00f3n de Obras Municipales, ya que es la unidad encargada de otorgar permisos relacionados con obras y construcciones, incluyendo la ocupaci\u00f3n de la v\u00eda p\u00fablica."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n de los servicios de educaci\u00f3n en la comuna?",
+    "response": "La Direcci\u00f3n de Servicios Incorporados a la Gesti\u00f3n es la encargada de asesorar al Alcalde y al Concejo en la formulaci\u00f3n de pol\u00edticas relativas a los servicios de educaci\u00f3n en la comuna."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo presentar una queja sobre el servicio de limpieza de parques?",
+    "response": "Puedes presentar tu queja en la Direcci\u00f3n de Servicios Generales, ya que es la unidad responsable del aseo de parques, plazas y jardines en la comuna."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n es responsable de la gesti\u00f3n de los programas de empleo en la comuna?",
+    "response": "La Direcci\u00f3n de Desarrollo Comunitario es la responsable de proponer y ejecutar programas relacionados con la promoci\u00f3n del empleo en la comuna."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo contactar para obtener informaci\u00f3n sobre las pol\u00edticas de deporte y recreaci\u00f3n en la comuna?",
+    "response": "Debes contactar a la Direcci\u00f3n de Desarrollo Comunitario, que es la unidad encargada de proponer y ejecutar medidas relacionadas con el deporte y la recreaci\u00f3n en la comuna."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n de los servicios de seguridad ciudadana en la comuna?",
+    "response": "La Direcci\u00f3n de Seguridad P\u00fablica es la encargada de colaborar con el Alcalde en la elaboraci\u00f3n del plan comunal de seguridad p\u00fablica y de recibir y analizar informaci\u00f3n relativa a la seguridad ciudadana en la comuna."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre las pol\u00edticas de medio ambiente en la comuna?",
+    "response": "Puedes obtener informaci\u00f3n sobre las pol\u00edticas de medio ambiente en la Direcci\u00f3n de Medio Ambiente, Aseo y Ornato, que es la unidad encargada de impulsar y consolidar la gesti\u00f3n medio ambiental de la comuna."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n es responsable de la gesti\u00f3n de los servicios de transporte p\u00fablico en la comuna?",
+    "response": "La Direcci\u00f3n de Tr\u00e1nsito y Transporte P\u00fablico es la encargada de aplicar las normas generales sobre transporte p\u00fablico en la comuna y de otorgar licencias para conducir veh\u00edculos."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo dirigirme para obtener un permiso de venta ambulante?",
+    "response": "Debes dirigirte a la Direcci\u00f3n de Obras Municipales, ya que es la unidad encargada de otorgar permisos relacionados con obras y construcciones, incluyendo la venta ambulante en la v\u00eda p\u00fablica."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n de los servicios de atenci\u00f3n al adulto mayor en la comuna?",
+    "response": "La Direcci\u00f3n de Desarrollo Comunitario es la encargada de gestionar y canalizar la entrega de beneficios a los grupos prioritarios, incluyendo programas para el adulto mayor."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo presentar una queja sobre el servicio de recolecci\u00f3n de residuos?",
+    "response": "Puedes presentar tu queja en la Direcci\u00f3n de Servicios Generales, ya que es la unidad responsable del servicio de extracci\u00f3n de basura en la comuna."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n es responsable de la gesti\u00f3n de los programas de capacitaci\u00f3n laboral en la comuna?",
+    "response": "La Direcci\u00f3n de Desarrollo Comunitario es la responsable de proponer y ejecutar programas relacionados con la capacitaci\u00f3n laboral en la comuna."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo contactar para obtener informaci\u00f3n sobre las pol\u00edticas de fomento productivo en la comuna?",
+    "response": "Debes contactar a la Direcci\u00f3n de Desarrollo Comunitario, que es la unidad encargada de proponer y ejecutar medidas relacionadas con el fomento productivo en la comuna."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n de los servicios de atenci\u00f3n a personas con discapacidad en la comuna?",
+    "response": "La Direcci\u00f3n de Desarrollo Comunitario es la encargada de gestionar y canalizar la entrega de beneficios a los grupos prioritarios, incluyendo programas para personas con discapacidad."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre las pol\u00edticas de vivienda social en la comuna?",
+    "response": "Puedes obtener informaci\u00f3n sobre las pol\u00edticas de vivienda social en la Direcci\u00f3n de Desarrollo Comunitario, que es la unidad encargada de proponer y ejecutar medidas relacionadas con la vivienda en la comuna."
+  },
+  {
+    "prompt": "Necesito ayuda para formar una junta de vecinos, \u00bfqui\u00e9n me puede orientar?",
+    "response": "La Secretar\u00eda Municipal es la unidad encargada de constituir, modificar y disolver la personalidad jur\u00eddica de las organizaciones comunitarias territoriales y funcionales de la comuna. Adem\u00e1s, la Direcci\u00f3n de Desarrollo Comunitario (DIDECO) puede brindarle asesor\u00eda t\u00e9cnica para el desarrollo y legalizaci\u00f3n de organizaciones comunitarias. Le recomiendo acercarse a estas dos unidades para recibir orientaci\u00f3n completa sobre el proceso."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo renovar mi licencia de conducir?",
+    "response": "La Direcci\u00f3n de Tr\u00e1nsito y Transporte P\u00fablico es la unidad encargada de otorgar y renovar licencias para conducir veh\u00edculos. Debe dirigirse a esta direcci\u00f3n para realizar su tr\u00e1mite de renovaci\u00f3n."
+  },
+  {
+    "prompt": "Hay un problema de microbasural en mi sector, \u00bfqui\u00e9n puede ayudarme?",
+    "response": "La Direcci\u00f3n de Medio Ambiente, Aseo y Ornato es la responsable de estos temas. Esta unidad se encarga de realizar diagn\u00f3sticos de problemas ambientales locales y ejecutar planes para su soluci\u00f3n. Tambi\u00e9n son responsables del servicio de extracci\u00f3n de basura y la limpieza de los bienes nacionales de uso p\u00fablico. Puede presentar su reclamo directamente en esta direcci\u00f3n."
+  },
+  {
+    "prompt": "Necesito informaci\u00f3n sobre programas sociales para adultos mayores",
+    "response": "La Direcci\u00f3n de Desarrollo Comunitario (DIDECO) es la unidad que gestiona y canaliza la entrega de beneficios a grupos prioritarios, incluyendo espec\u00edficamente programas para adultos mayores. Ellos pueden informarle sobre los programas sociales disponibles y los requisitos para acceder a ellos."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo presentar una queja sobre el mal estado de un sem\u00e1foro?",
+    "response": "La Direcci\u00f3n de Tr\u00e1nsito y Transporte P\u00fablico es responsable de la se\u00f1alizaci\u00f3n adecuada de las v\u00edas p\u00fablicas, lo que incluye los sem\u00e1foros. Debe dirigir su reclamo a esta unidad para que puedan evaluar y resolver el problema."
+  },
+  {
+    "prompt": "Quiero saber si mi propiedad est\u00e1 afectada por el plan regulador",
+    "response": "La Secretar\u00eda Comunal de Planificaci\u00f3n, espec\u00edficamente a trav\u00e9s del Asesor Urbanista, es quien maneja la informaci\u00f3n del plan regulador comunal. Ellos pueden informarle sobre c\u00f3mo afecta el plan regulador a su propiedad, ya que son responsables de mantener actualizado este instrumento y estudiar sus modificaciones."
+  },
+  {
+    "prompt": "\u00bfC\u00f3mo puedo obtener un permiso para vender en la feria?",
+    "response": "Para obtener permisos comerciales debe dirigirse a la Direcci\u00f3n de Administraci\u00f3n y Finanzas, ya que esta unidad se encarga de estudiar, calcular, proponer y regular la percepci\u00f3n de cualquier tipo de ingresos municipales, incluyendo los permisos comerciales."
+  },
+  {
+    "prompt": "Hay problemas de seguridad en mi barrio, \u00bfcon qui\u00e9n debo hablar?",
+    "response": "La Direcci\u00f3n de Seguridad P\u00fablica es la unidad encargada de estos temas. Esta direcci\u00f3n trabaja con el Consejo Comunal de Seguridad P\u00fablica para analizar los antecedentes y estad\u00edsticas relacionadas con la seguridad comunal. Puede presentar su inquietud ante esta direcci\u00f3n para que sea considerada en el plan comunal de seguridad p\u00fablica."
+  },
+  {
+    "prompt": "Necesito una poda de \u00e1rboles en mi calle, \u00bfqui\u00e9n se encarga de eso?",
+    "response": "La Direcci\u00f3n de Medio Ambiente, Aseo y Ornato es responsable de la administraci\u00f3n y mantenci\u00f3n de las \u00e1reas verdes de la comuna. Debe contactar a esta unidad para solicitar la poda de \u00e1rboles en espacios p\u00fablicos."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo denunciar a un vecino por ruidos molestos?",
+    "response": "Los Juzgados de Polic\u00eda Local son los encargados de conocer las denuncias por ruidos molestos y otras infracciones a las ordenanzas municipales. Puede presentar su denuncia directamente en el Juzgado de Polic\u00eda Local de la comuna."
+  },
+  {
+    "prompt": "Necesito informaci\u00f3n sobre becas municipales para estudios",
+    "response": "La Direcci\u00f3n de Servicios Incorporados a la Gesti\u00f3n, espec\u00edficamente en su \u00e1rea de educaci\u00f3n, junto con la DIDECO, son las unidades que manejan los programas de apoyo educacional. Estas unidades pueden informarle sobre las becas disponibles y los requisitos para postular."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde debo consultar sobre la reparaci\u00f3n de una calle?",
+    "response": "Debes consultar en la Direcci\u00f3n de Obras Municipales, ya que es la unidad encargada de la vialidad urbana y rural, as\u00ed como de la ejecuci\u00f3n y supervisi\u00f3n de obras de construcci\u00f3n y urbanizaci\u00f3n."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo contactar para obtener una licencia de conducir?",
+    "response": "Debes contactar a la Direcci\u00f3n de Tr\u00e1nsito y Transporte P\u00fablico, ya que es la unidad encargada de otorgar y renovar licencias para conducir veh\u00edculos."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre el presupuesto municipal?",
+    "response": "Puedes obtener informaci\u00f3n sobre el presupuesto municipal en la Direcci\u00f3n de Administraci\u00f3n y Finanzas, que es la unidad encargada de la administraci\u00f3n financiera y la elaboraci\u00f3n del presupuesto municipal."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n es responsable de la gesti\u00f3n ambiental en la comuna?",
+    "response": "La Direcci\u00f3n de Medio Ambiente, Aseo y Ornato es responsable de la gesti\u00f3n ambiental en la comuna, incluyendo la elaboraci\u00f3n de pol\u00edticas ambientales y la promoci\u00f3n de h\u00e1bitos sustentables."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo presentar una queja sobre el servicio de recolecci\u00f3n de basura?",
+    "response": "Puedes presentar tu queja en la Direcci\u00f3n de Servicios Generales, que es la unidad encargada del aseo de las v\u00edas p\u00fablicas y la extracci\u00f3n de basura."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n puede ayudarme con la legalizaci\u00f3n de una organizaci\u00f3n comunitaria?",
+    "response": "La Direcci\u00f3n de Desarrollo Comunitario puede ayudarte con la legalizaci\u00f3n de una organizaci\u00f3n comunitaria, ya que es la unidad encargada de fomentar el desarrollo y la legalizaci\u00f3n de estas organizaciones."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre las ordenanzas municipales?",
+    "response": "Puedes obtener informaci\u00f3n sobre las ordenanzas municipales en la Secretar\u00eda Municipal, que es la unidad encargada de mantener y tramitar la informaci\u00f3n relacionada con las normativas municipales."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n es responsable de la seguridad p\u00fablica en la comuna?",
+    "response": "La Direcci\u00f3n de Seguridad P\u00fablica es responsable de la seguridad p\u00fablica en la comuna, y trabaja en colaboraci\u00f3n con el Alcalde para elaborar planes de seguridad comunal."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo consultar sobre permisos de construcci\u00f3n?",
+    "response": "Puedes consultar sobre permisos de construcci\u00f3n en la Direcci\u00f3n de Obras Municipales, que es la unidad encargada de otorgar permisos de edificaci\u00f3n y fiscalizar obras de construcci\u00f3n."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n puede ayudarme con un problema de tr\u00e1nsito en mi barrio?",
+    "response": "Puedes contactar a la Direcci\u00f3n de Tr\u00e1nsito y Transporte P\u00fablico, que es la unidad encargada de aplicar las normas generales sobre tr\u00e1nsito y transporte p\u00fablicos en la comuna."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre los programas sociales disponibles en la comuna?",
+    "response": "Puedes obtener informaci\u00f3n sobre los programas sociales en la Direcci\u00f3n de Desarrollo Comunitario, que es la unidad encargada de proponer y ejecutar programas sociales en la comuna."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n es responsable de la planificaci\u00f3n urbana en la comuna?",
+    "response": "La Secretar\u00eda Comunal de Planificaci\u00f3n es responsable de la planificaci\u00f3n urbana en la comuna, incluyendo la elaboraci\u00f3n del plan regulador comunal y los planes seccionales."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo presentar una solicitud de informaci\u00f3n p\u00fablica?",
+    "response": "Puedes presentar una solicitud de informaci\u00f3n p\u00fablica en la Secretar\u00eda Municipal, que es la unidad encargada de gestionar las solicitudes de informaci\u00f3n y velar por la transparencia activa."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n puede ayudarme con un problema de contaminaci\u00f3n en mi vecindario?",
+    "response": "Puedes contactar a la Direcci\u00f3n de Medio Ambiente, Aseo y Ornato, que es la unidad encargada de gestionar los problemas ambientales en la comuna y promover pr\u00e1cticas sustentables."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre las subvenciones municipales?",
+    "response": "Puedes obtener informaci\u00f3n sobre las subvenciones municipales en la Direcci\u00f3n de Control, que es la unidad encargada de fiscalizar el uso de los recursos municipales, incluyendo las subvenciones."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n es responsable de la gesti\u00f3n de los parques y \u00e1reas verdes en la comuna?",
+    "response": "La Direcci\u00f3n de Medio Ambiente, Aseo y Ornato es responsable de la gesti\u00f3n de los parques y \u00e1reas verdes en la comuna, incluyendo su administraci\u00f3n y protecci\u00f3n."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo consultar sobre el estado de avance de los proyectos de desarrollo comunal?",
+    "response": "Puedes consultar sobre el estado de avance de los proyectos de desarrollo comunal en la Secretar\u00eda Comunal de Planificaci\u00f3n, que es la unidad encargada de evaluar el cumplimiento de los planes y programas de desarrollo."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n puede ayudarme con un problema de iluminaci\u00f3n p\u00fablica en mi calle?",
+    "response": "Puedes contactar a la Direcci\u00f3n de Obras Municipales, que es la unidad encargada de la ejecuci\u00f3n y supervisi\u00f3n de obras de urbanizaci\u00f3n, incluyendo la iluminaci\u00f3n p\u00fablica."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre los servicios de salud municipal?",
+    "response": "Puedes obtener informaci\u00f3n sobre los servicios de salud municipal en la Direcci\u00f3n de Servicios Incorporados a la Gesti\u00f3n, que es la unidad encargada de asesorar en la formulaci\u00f3n de pol\u00edticas relacionadas con la salud y la educaci\u00f3n."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre las pol\u00edticas de educaci\u00f3n en la comuna?",
+    "response": "Puedes obtener informaci\u00f3n sobre las pol\u00edticas de educaci\u00f3n en la Direcci\u00f3n de Servicios Incorporados a la Gesti\u00f3n, que asesora al Alcalde y al Concejo en la formulaci\u00f3n de pol\u00edticas relativas a la educaci\u00f3n en la comuna."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n es responsable de la gesti\u00f3n de los recursos naturales en la comuna?",
+    "response": "La Direcci\u00f3n de Medio Ambiente, Aseo y Ornato es la encargada de impulsar y consolidar la gesti\u00f3n medio ambiental de la comuna, incluyendo la protecci\u00f3n de los recursos naturales."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre las pol\u00edticas de turismo en la comuna?",
+    "response": "Puedes obtener informaci\u00f3n sobre las pol\u00edticas de turismo en la Direcci\u00f3n de Desarrollo Comunitario, que es la unidad encargada de proponer y ejecutar medidas relacionadas con el turismo en la comuna."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n es responsable de la gesti\u00f3n de los servicios de emergencia en la comuna?",
+    "response": "La Administraci\u00f3n Municipal es la responsable de organizar, en caso de emergencia, los medios humanos y materiales para prestar auxilio a la comunidad, en virtud de orden o disposici\u00f3n Alcaldicia."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo dirigirme para obtener un permiso de ocupaci\u00f3n de la v\u00eda p\u00fablica?",
+    "response": "Debes dirigirte a la Direcci\u00f3n de Obras Municipales, ya que es la unidad encargada de otorgar permisos relacionados con obras y construcciones, incluyendo la ocupaci\u00f3n de la v\u00eda p\u00fablica."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n de los servicios de educaci\u00f3n en la comuna?",
+    "response": "La Direcci\u00f3n de Servicios Incorporados a la Gesti\u00f3n es la encargada de asesorar al Alcalde y al Concejo en la formulaci\u00f3n de pol\u00edticas relativas a los servicios de educaci\u00f3n en la comuna."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo presentar una queja sobre el servicio de limpieza de parques?",
+    "response": "Puedes presentar tu queja en la Direcci\u00f3n de Servicios Generales, ya que es la unidad responsable del aseo de parques, plazas y jardines en la comuna."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n es responsable de la gesti\u00f3n de los programas de empleo en la comuna?",
+    "response": "La Direcci\u00f3n de Desarrollo Comunitario es la responsable de proponer y ejecutar programas relacionados con la promoci\u00f3n del empleo en la comuna."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo contactar para obtener informaci\u00f3n sobre las pol\u00edticas de deporte y recreaci\u00f3n en la comuna?",
+    "response": "Debes contactar a la Direcci\u00f3n de Desarrollo Comunitario, que es la unidad encargada de proponer y ejecutar medidas relacionadas con el deporte y la recreaci\u00f3n en la comuna."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n de los servicios de seguridad ciudadana en la comuna?",
+    "response": "La Direcci\u00f3n de Seguridad P\u00fablica es la encargada de colaborar con el Alcalde en la elaboraci\u00f3n del plan comunal de seguridad p\u00fablica y de recibir y analizar informaci\u00f3n relativa a la seguridad ciudadana en la comuna."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre las pol\u00edticas de medio ambiente en la comuna?",
+    "response": "Puedes obtener informaci\u00f3n sobre las pol\u00edticas de medio ambiente en la Direcci\u00f3n de Medio Ambiente, Aseo y Ornato, que es la unidad encargada de impulsar y consolidar la gesti\u00f3n medio ambiental de la comuna."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n es responsable de la gesti\u00f3n de los servicios de transporte p\u00fablico en la comuna?",
+    "response": "La Direcci\u00f3n de Tr\u00e1nsito y Transporte P\u00fablico es la encargada de aplicar las normas generales sobre transporte p\u00fablico en la comuna y de otorgar licencias para conducir veh\u00edculos."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo dirigirme para obtener un permiso de venta ambulante?",
+    "response": "Debes dirigirte a la Direcci\u00f3n de Obras Municipales, ya que es la unidad encargada de otorgar permisos relacionados con obras y construcciones, incluyendo la venta ambulante en la v\u00eda p\u00fablica."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n de los servicios de atenci\u00f3n al adulto mayor en la comuna?",
+    "response": "La Direcci\u00f3n de Desarrollo Comunitario es la encargada de gestionar y canalizar la entrega de beneficios a los grupos prioritarios, incluyendo programas para el adulto mayor."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo presentar una queja sobre el servicio de recolecci\u00f3n de residuos?",
+    "response": "Puedes presentar tu queja en la Direcci\u00f3n de Servicios Generales, ya que es la unidad responsable del servicio de extracci\u00f3n de basura en la comuna."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n es responsable de la gesti\u00f3n de los programas de capacitaci\u00f3n laboral en la comuna?",
+    "response": "La Direcci\u00f3n de Desarrollo Comunitario es la responsable de proponer y ejecutar programas relacionados con la capacitaci\u00f3n laboral en la comuna."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo contactar para obtener informaci\u00f3n sobre las pol\u00edticas de fomento productivo en la comuna?",
+    "response": "Debes contactar a la Direcci\u00f3n de Desarrollo Comunitario, que es la unidad encargada de proponer y ejecutar medidas relacionadas con el fomento productivo en la comuna."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n de los servicios de atenci\u00f3n a personas con discapacidad en la comuna?",
+    "response": "La Direcci\u00f3n de Desarrollo Comunitario es la encargada de gestionar y canalizar la entrega de beneficios a los grupos prioritarios, incluyendo programas para personas con discapacidad."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre las pol\u00edticas de vivienda social en la comuna?",
+    "response": "Puedes obtener informaci\u00f3n sobre las pol\u00edticas de vivienda social en la Direcci\u00f3n de Desarrollo Comunitario, que es la unidad encargada de proponer y ejecutar medidas relacionadas con la vivienda en la comuna."
+  },
+  {
+    "prompt": "Necesito ayuda para formar una junta de vecinos, \u00bfqui\u00e9n me puede orientar?",
+    "response": "La Secretar\u00eda Municipal es la unidad encargada de constituir, modificar y disolver la personalidad jur\u00eddica de las organizaciones comunitarias territoriales y funcionales de la comuna. Adem\u00e1s, la Direcci\u00f3n de Desarrollo Comunitario (DIDECO) puede brindarle asesor\u00eda t\u00e9cnica para el desarrollo y legalizaci\u00f3n de organizaciones comunitarias. Le recomiendo acercarse a estas dos unidades para recibir orientaci\u00f3n completa sobre el proceso."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo renovar mi licencia de conducir?",
+    "response": "La Direcci\u00f3n de Tr\u00e1nsito y Transporte P\u00fablico es la unidad encargada de otorgar y renovar licencias para conducir veh\u00edculos. Debe dirigirse a esta direcci\u00f3n para realizar su tr\u00e1mite de renovaci\u00f3n."
+  },
+  {
+    "prompt": "Hay un problema de microbasural en mi sector, \u00bfqui\u00e9n puede ayudarme?",
+    "response": "La Direcci\u00f3n de Medio Ambiente, Aseo y Ornato es la responsable de estos temas. Esta unidad se encarga de realizar diagn\u00f3sticos de problemas ambientales locales y ejecutar planes para su soluci\u00f3n. Tambi\u00e9n son responsables del servicio de extracci\u00f3n de basura y la limpieza de los bienes nacionales de uso p\u00fablico. Puede presentar su reclamo directamente en esta direcci\u00f3n."
+  },
+  {
+    "prompt": "Necesito informaci\u00f3n sobre programas sociales para adultos mayores",
+    "response": "La Direcci\u00f3n de Desarrollo Comunitario (DIDECO) es la unidad que gestiona y canaliza la entrega de beneficios a grupos prioritarios, incluyendo espec\u00edficamente programas para adultos mayores. Ellos pueden informarle sobre los programas sociales disponibles y los requisitos para acceder a ellos."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo presentar una queja sobre el mal estado de un sem\u00e1foro?",
+    "response": "La Direcci\u00f3n de Tr\u00e1nsito y Transporte P\u00fablico es responsable de la señalizaci\u00f3n adecuada de las v\u00edas p\u00fablicas, lo que incluye los sem\u00e1foros. Debe dirigir su reclamo a esta unidad para que puedan evaluar y resolver el problema."
+  },
+  {
+    "prompt": "Quiero saber si mi propiedad est\u00e1 afectada por el plan regulador",
+    "response": "La Secretar\u00eda Comunal de Planificaci\u00f3n, espec\u00edficamente a trav\u00e9s del Asesor Urbanista, es quien maneja la informaci\u00f3n del plan regulador comunal. Ellos pueden informarle sobre c\u00f3mo afecta el plan regulador a su propiedad, ya que son responsables de mantener actualizado este instrumento y estudiar sus modificaciones."
+  },
+  {
+    "prompt": "\u00bfC\u00f3mo puedo obtener un permiso para vender en la feria?",
+    "response": "Para obtener permisos comerciales debe dirigirse a la Direcci\u00f3n de Administraci\u00f3n y Finanzas, ya que esta unidad se encarga de estudiar, calcular, proponer y regular la percepci\u00f3n de cualquier tipo de ingresos municipales, incluyendo los permisos comerciales."
+  },
+  {
+    "prompt": "Hay problemas de seguridad en mi barrio, \u00bfcon qui\u00e9n debo hablar?",
+    "response": "La Direcci\u00f3n de Seguridad P\u00fablica es la unidad encargada de estos temas. Esta direcci\u00f3n trabaja con el Consejo Comunal de Seguridad P\u00fablica para analizar los antecedentes y estad\u00edsticas relacionadas con la seguridad comunal. Puede presentar su inquietud ante esta direcci\u00f3n para que sea considerada en el plan comunal de seguridad p\u00fablica."
+  },
+  {
+    "prompt": "Necesito una poda de \u00e1rboles en mi calle, \u00bfqui\u00e9n se encarga de eso?",
+    "response": "La Direcci\u00f3n de Medio Ambiente, Aseo y Ornato es responsable de la administraci\u00f3n y mantenci\u00f3n de las \u00e1reas verdes de la comuna. Debe contactar a esta unidad para solicitar la poda de \u00e1rboles en espacios p\u00fablicos."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo denunciar a un vecino por ruidos molestos?",
+    "response": "Los Juzgados de Polic\u00eda Local son los encargados de conocer las denuncias por ruidos molestos y otras infracciones a las ordenanzas municipales. Puede presentar su denuncia directamente en el Juzgado de Polic\u00eda Local de la comuna."
+  },
+  {
+    "prompt": "Necesito informaci\u00f3n sobre becas municipales para estudios",
+    "response": "La Direcci\u00f3n de Servicios Incorporados a la Gesti\u00f3n, espec\u00edficamente en su \u00e1rea de educaci\u00f3n, junto con la DIDECO, son las unidades que manejan los programas de apoyo educacional. Estas unidades pueden informarle sobre las becas disponibles y los requisitos para postular."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre las remuneraciones de los funcionarios municipales?",
+    "response": "Debes dirigirte al **Departamento de Recursos Humanos - Remuneraciones**, que pertenece a la **Direcci\u00f3n de Administraci\u00f3n y Finanzas**."
+  },
+  {
+    "prompt": "Necesito informaci\u00f3n sobre los permisos de circulaci\u00f3n de veh\u00edculos, \u00bfa qui\u00e9n debo contactar?",
+    "response": "Debes contactar al **Departamento de Permisos de Circulaci\u00f3n**, que forma parte de la **Direcci\u00f3n de Tr\u00e1nsito y Transporte**."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la planificaci\u00f3n de obras viales en la comuna?",
+    "response": "La **Direcci\u00f3n de Secplan** tiene un **Departamento de Planificaci\u00f3n, Proyecto y Obras Viales** que se encarga de la planificaci\u00f3n de obras viales."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo presentar una queja sobre el mal estado de las \u00e1reas verdes en mi barrio?",
+    "response": "Debes presentar tu queja en el **Departamento de Aseo y Ornato**, que pertenece a la **Direcci\u00f3n de Medio Ambiente, Aseo y Ornato**."
+  },
+  {
+    "prompt": "Necesito informaci\u00f3n sobre los programas de apoyo al adulto mayor, \u00bfa qui\u00e9n debo dirigirme?",
+    "response": "Puedes dirigirte al **Departamento de Adulto Mayor**, que forma parte de la **Direcci\u00f3n de Desarrollo Comunitario**."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n de los convenios sociales en la comuna?",
+    "response": "El **Departamento de Convenios Sociales**, que pertenece a la **Direcci\u00f3n de Desarrollo Comunitario**, es el encargado de gestionar los convenios sociales."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre las licencias de conducir?",
+    "response": "Debes contactar al **Departamento de Licencias de Conducir**, que forma parte de la **Direcci\u00f3n de Tr\u00e1nsito y Transporte**."
+  },
+  {
+    "prompt": "Necesito informaci\u00f3n sobre los programas de turismo en la comuna, \u00bfa qui\u00e9n debo contactar?",
+    "response": "Puedes contactar al **Departamento de Turismo**, que pertenece a la **Direcci\u00f3n de Desarrollo Comunitario**."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la inspecci\u00f3n t\u00e9cnica de obras en la comuna?",
+    "response": "El **Departamento de Inspecci\u00f3n T\u00e9cnica de Obras**, que forma parte de la **Direcci\u00f3n de Obras**, es el encargado de la inspecci\u00f3n t\u00e9cnica de obras."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo presentar una solicitud para obtener un permiso de construcci\u00f3n?",
+    "response": "Debes presentar tu solicitud en la **Secci\u00f3n de Permisos y Recepciones**, que pertenece a la **Direcci\u00f3n de Obras**."
+  },
+  {
+    "prompt": "Necesito informaci\u00f3n sobre los programas de prevenci\u00f3n de riesgos laborales, \u00bfa qui\u00e9n debo dirigirme?",
+    "response": "Puedes dirigirte al **Departamento de Recursos Humanos - Prevenci\u00f3n de Riesgos**, que forma parte de la **Direcci\u00f3n de Administraci\u00f3n y Finanzas**."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n de los recintos deportivos municipales?",
+    "response": "El **Departamento de Administraci\u00f3n - Recintos Deportivos**, que pertenece a la **Direcci\u00f3n de Administraci\u00f3n y Finanzas**, es el encargado de la gesti\u00f3n de los recintos deportivos."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre las actividades culturales en la comuna?",
+    "response": "Puedes obtener informaci\u00f3n en el **Departamento de Cultura y Deportes**, que forma parte de la **Direcci\u00f3n de Desarrollo Comunitario**."
+  },
+  {
+    "prompt": "Necesito informaci\u00f3n sobre los programas de vivienda social, \u00bfa qui\u00e9n debo contactar?",
+    "response": "Debes contactar al **Departamento de Vivienda**, que pertenece a la **Direcci\u00f3n de Desarrollo Comunitario**."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n de los programas de empleo en la comuna?",
+    "response": "El **Departamento de OMIL (Oficina Municipal de Intermediaci\u00f3n Laboral)**, que forma parte de la **Direcci\u00f3n de Desarrollo Comunitario**, es el encargado de gestionar los programas de empleo."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo presentar una queja sobre el servicio de recolecci\u00f3n de basura?",
+    "response": "Debes presentar tu queja en el **Departamento de Aseo y Ornato**, que pertenece a la **Direcci\u00f3n de Medio Ambiente, Aseo y Ornato**."
+  },
+  {
+    "prompt": "Necesito informaci\u00f3n sobre los programas de apoyo a la agricultura, \u00bfa qui\u00e9n debo dirigirme?",
+    "response": "Puedes dirigirte al **Departamento Agr\u00edcola**, que forma parte de la **Direcci\u00f3n de Desarrollo Comunitario**."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n de los eventos especiales en la comuna?",
+    "response": "El **Departamento de Eventos Especiales**, que pertenece a la **Direcci\u00f3n de Servicios Generales**, es el encargado de gestionar los eventos especiales."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre los programas de educaci\u00f3n municipal?",
+    "response": "Puedes obtener informaci\u00f3n en el **Departamento de Educaci\u00f3n**, que forma parte de la **Direcci\u00f3n de Servicios Incorporados a la Gesti\u00f3n**."
+  },
+  {
+    "prompt": "Necesito informaci\u00f3n sobre los programas de salud municipal, \u00bfa qui\u00e9n debo contactar?",
+    "response": "Debes contactar al **Departamento de Salud**, que pertenece a la **Direcci\u00f3n de Servicios Incorporados a la Gesti\u00f3n**."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la protecci\u00f3n civil y emergencias en la comuna?",
+    "response": "El **Departamento de Protecci\u00f3n Civil y Emergencia**, que forma parte de la **Direcci\u00f3n de Seguridad P\u00fablica**, es el encargado de la protecci\u00f3n civil y emergencias."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo presentar una queja sobre el mal estado de las calles?",
+    "response": "Debes presentar tu queja en el **Departamento de Proyecto y Obras Viales**, que pertenece a la **Direcci\u00f3n de Servicios Generales**."
+  },
+  {
+    "prompt": "Necesito informaci\u00f3n sobre los programas de apoyo a la juventud, \u00bfa qui\u00e9n debo dirigirme?",
+    "response": "Puedes dirigirte al **Departamento de SENDA**, que forma parte de la **Direcci\u00f3n de Desarrollo Comunitario**."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n del teatro municipal?",
+    "response": "El **Departamento de Teatro Municipal**, que pertenece a la **Direcci\u00f3n de Desarrollo Comunitario**, es el encargado de la gesti\u00f3n del teatro municipal."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre los programas de desarrollo vecinal?",
+    "response": "Puedes obtener informaci\u00f3n en el **Departamento de Desarrollo Vecinal**, que forma parte de la **Direcci\u00f3n de Desarrollo Comunitario**."
+  },
+  {
+    "prompt": "Necesito informaci\u00f3n sobre los programas de protecci\u00f3n y seguridad vecinal, \u00bfa qui\u00e9n debo contactar?",
+    "response": "Debes contactar al **Departamento de Protecci\u00f3n y Seguridad Vecinal**, que pertenece a la **Direcci\u00f3n de Seguridad P\u00fablica**."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n de los archivos y legajos municipales?",
+    "response": "El **Departamento de Archivos y Legajos**, que forma parte de la **Direcci\u00f3n de Secretar\u00eda Municipal**, es el encargado de la gesti\u00f3n de los archivos y legajos municipales."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo presentar una solicitud de informaci\u00f3n p\u00fablica?",
+    "response": "Debes presentar tu solicitud en la **Oficina de Informaciones**, que pertenece a la **Direcci\u00f3n de Secretar\u00eda Municipal**."
+  },
+  {
+    "prompt": "Necesito informaci\u00f3n sobre los programas de apoyo a la cultura, \u00bfa qui\u00e9n debo dirigirme?",
+    "response": "Puedes dirigirte al **Departamento de Cultura y Deportes**, que forma parte de la **Direcci\u00f3n de Desarrollo Comunitario**."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n de los programas de prevenci\u00f3n de riesgos en la comuna?",
+    "response": "El **Departamento de Protecci\u00f3n Civil y Emergencia**, que pertenece a la **Direcci\u00f3n de Seguridad P\u00fablica**, es el encargado de la gesti\u00f3n de los programas de prevenci\u00f3n de riesgos."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre los programas de apoyo a la mujer y equidad de g\u00e9nero?",
+    "response": "Puedes obtener informaci\u00f3n en el **Departamento de Equidad de G\u00e9nero**, que forma parte de la **Direcci\u00f3n de Desarrollo Comunitario**."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre los eventos deportivos municipales?",
+    "response": "Puedes obtener informaci\u00f3n en el Departamento de Deportes, que organiza y promociona eventos deportivos municipales."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo dirigirme para renovar mi permiso de construcci\u00f3n?",
+    "response": "Debes dirigirte a la Direcci\u00f3n de Obras Municipales, encargada de los tr\u00e1mites de permisos y renovaciones de construcciones en la comuna."
+  },
+  {
+    "prompt": "\u00bfC\u00f3mo puedo inscribir a mi hijo en actividades culturales municipales?",
+    "response": "Puedes dirigirte a la Direcci\u00f3n de Cultura y Deportes, que gestiona la inscripci\u00f3n a actividades culturales y art\u00edsticas para la comunidad."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n de las \u00e1reas de reciclaje en la comuna?",
+    "response": "La Direcci\u00f3n de Medio Ambiente, Aseo y Ornato es responsable de gestionar las \u00e1reas de reciclaje y el manejo de residuos."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo reportar un problema de inundaci\u00f3n en mi barrio?",
+    "response": "Debes reportar el problema a la Direcci\u00f3n de Obras Municipales, encargada de la infraestructura y drenaje urbano para prevenir inundaciones."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n puedo consultar sobre el desarrollo de proyectos de energ\u00eda renovable en la comuna?",
+    "response": "Puedes consultar a la Direcci\u00f3n de Desarrollo Comunitario, que asesora sobre iniciativas de energ\u00eda renovable y proyectos de sostenibilidad."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n de la red de ciclov\u00edas en la comuna?",
+    "response": "La Direcci\u00f3n de Tr\u00e1nsito y Transporte P\u00fablico es responsable del mantenimiento y gesti\u00f3n de la red de ciclov\u00edas."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo solicitar informaci\u00f3n sobre programas de apoyo para emprendedores?",
+    "response": "Puedes solicitar informaci\u00f3n en la Direcci\u00f3n de Desarrollo Comunitario, que administra programas de apoyo a emprendedores locales."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n gestiona el servicio de recolecci\u00f3n de desechos org\u00e1nicos?",
+    "response": "La Direcci\u00f3n de Servicios Generales es la encargada de gestionar el servicio de recolecci\u00f3n de desechos org\u00e1nicos en la comuna."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo dirigir mi consulta sobre la instalaci\u00f3n de nuevos sem\u00e1foros?",
+    "response": "Debes dirigir tu consulta a la Direcci\u00f3n de Tr\u00e1nsito y Transporte P\u00fablico, responsable de la instalaci\u00f3n y mantenimiento de sem\u00e1foros."
+  },
+  {
+    "prompt": "\u00bfC\u00f3mo puedo acceder a los datos abiertos de la municipalidad?",
+    "response": "Puedes acceder a los datos abiertos a trav\u00e9s del portal de transparencia de la municipalidad, gestionado por la Secretar\u00eda Municipal."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n de proyectos de revitalizaci\u00f3n urbana?",
+    "response": "La Secretar\u00eda Comunal de Planificaci\u00f3n es la encargada de gestionar proyectos de revitalizaci\u00f3n urbana en la comuna."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo solicitar la reparaci\u00f3n de una luminaria p\u00fablica?",
+    "response": "Debes solicitar la reparaci\u00f3n a la Direcci\u00f3n de Tr\u00e1nsito y Transporte P\u00fablico, responsable del mantenimiento de la iluminaci\u00f3n p\u00fablica."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n administra los espacios p\u00fablicos para actividades comunitarias?",
+    "response": "La Direcci\u00f3n de Desarrollo Comunitario administra y regula el uso de los espacios p\u00fablicos para actividades comunitarias."
+  },
+  {
+    "prompt": "\u00bfC\u00f3mo puedo participar en la consulta ciudadana sobre el nuevo plan urban\u00edstico?",
+    "response": "Puedes participar en la consulta ciudadana a trav\u00e9s de la Secretar\u00eda Municipal, que organiza procesos de participaci\u00f3n y consulta p\u00fablica."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo contactar para gestionar un programa de voluntariado municipal?",
+    "response": "Puedes contactar a la Direcci\u00f3n de Desarrollo Comunitario, que coordina y promueve programas de voluntariado en la comuna."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre la calidad del aire en la comuna?",
+    "response": "Puedes obtener informaci\u00f3n sobre la calidad del aire en la Direcci\u00f3n de Medio Ambiente, Aseo y Ornato, que monitorea los par\u00e1metros ambientales."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la gesti\u00f3n de la infraestructura deportiva en la comuna?",
+    "response": "La Direcci\u00f3n de Deportes es responsable del mantenimiento y gesti\u00f3n de la infraestructura deportiva en la comuna."
+  },
+  {
+    "prompt": "\u00bfC\u00f3mo puedo solicitar la instalaci\u00f3n de una banca en un parque p\u00fablico?",
+    "response": "Debes solicitarlo a la Direcci\u00f3n de Servicios Generales, que gestiona el mobiliario urbano y el equipamiento de parques."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre las licitaciones municipales?",
+    "response": "Puedes obtener informaci\u00f3n sobre las licitaciones en la Secretar\u00eda Municipal, que publica y gestiona los procesos de contrataci\u00f3n p\u00fablica."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la promoci\u00f3n tur\u00edstica en la comuna?",
+    "response": "La Direcci\u00f3n de Desarrollo Comunitario, a trav\u00e9s del Departamento de Turismo, es responsable de la promoci\u00f3n tur\u00edstica en la comuna."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo dirigirme para obtener asesor\u00eda sobre la conservaci\u00f3n del patrimonio cultural?",
+    "response": "Debes dirigirte a la Direcci\u00f3n de Cultura y Deportes, que asesora sobre la conservaci\u00f3n y promoci\u00f3n del patrimonio cultural municipal."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre el programa de reciclaje de residuos electr\u00f3nicos?",
+    "response": "Puedes obtener informaci\u00f3n en la Direcci\u00f3n de Medio Ambiente, Aseo y Ornato, que administra iniciativas de reciclaje especializado en residuos electr\u00f3nicos."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de la supervisi\u00f3n de parques infantiles en la comuna?",
+    "response": "La Direcci\u00f3n de Servicios Generales es la encargada de supervisar y mantener los parques infantiles y \u00e1reas recreativas en la comuna."
+  },
+  {
+    "prompt": "\u00bfC\u00f3mo puedo reportar una fuga de agua en la v\u00eda p\u00fablica?",
+    "response": "Debes reportar el problema a la Direcci\u00f3n de Obras Municipales, que gestiona el mantenimiento y reparaci\u00f3n de la red de agua p\u00fablica."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo contactar para solicitar la instalaci\u00f3n de un parque urbano?",
+    "response": "Debes dirigirte a la Direcci\u00f3n de Desarrollo Comunitario, responsable de la planificaci\u00f3n y creaci\u00f3n de nuevos espacios recreativos en la comuna."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo consultar sobre la reforestaci\u00f3n de \u00e1reas degradadas?",
+    "response": "Puedes consultar en la Direcci\u00f3n de Medio Ambiente, Aseo y Ornato, que coordina programas de reforestaci\u00f3n y recuperaci\u00f3n de \u00e1reas degradadas."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga del mantenimiento de las ciclov\u00edas?",
+    "response": "La Direcci\u00f3n de Tr\u00e1nsito y Transporte P\u00fablico se encarga del mantenimiento y mejoras de la red de ciclov\u00edas en la comuna."
+  },
+  {
+    "prompt": "\u00bfC\u00f3mo puedo solicitar asistencia para la renovaci\u00f3n del alumbrado p\u00fablico?",
+    "response": "Debes solicitar asistencia a la Direcci\u00f3n de Tr\u00e1nsito y Transporte P\u00fablico, la cual administra y renueva el sistema de alumbrado urbano."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre el programa de energ\u00eda solar municipal?",
+    "response": "La Direcci\u00f3n de Desarrollo Comunitario ofrece informaci\u00f3n sobre iniciativas de energ\u00eda renovable, incluyendo proyectos de energ\u00eda solar municipal."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo dirigir mi consulta sobre la implementaci\u00f3n de zonas peatonales?",
+    "response": "Puedes dirigir tu consulta a la Secretar\u00eda Comunal de Planificaci\u00f3n, encargada de la regulaci\u00f3n y diseño de espacios urbanos, incluidas las zonas peatonales."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n gestiona la organizaci\u00f3n de ferias y exposiciones municipales?",
+    "response": "La Direcci\u00f3n de Cultura y Deportes es la encargada de organizar y promover ferias y exposiciones en el \u00e1mbito municipal."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre el uso de espacios p\u00fablicos para eventos privados?",
+    "response": "La Direcci\u00f3n de Servicios Generales administra la reserva y el uso de espacios p\u00fablicos para eventos privados en la comuna."
+  },
+  {
+    "prompt": "\u00bfC\u00f3mo puedo inscribir mi negocio en el registro de establecimientos comerciales municipales?",
+    "response": "Debes dirigirte a la Direcci\u00f3n de Administraci\u00f3n y Finanzas, que se encarga del registro y regulaci\u00f3n de establecimientos comerciales."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo contactar para obtener un certificado de zonificaci\u00f3n?",
+    "response": "Puedes solicitar un certificado de zonificaci\u00f3n en la Secretar\u00eda Comunal de Planificaci\u00f3n, responsable de emitir este tipo de documentos."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo consultar sobre la regularizaci\u00f3n de asentamientos informales?",
+    "response": "La Direcci\u00f3n de Desarrollo Comunitario, en conjunto con la Secretar\u00eda Comunal de Planificaci\u00f3n, trabaja en la regularizaci\u00f3n de asentamientos informales."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga de implementar programas de reciclaje en las escuelas municipales?",
+    "response": "La Direcci\u00f3n de Medio Ambiente, Aseo y Ornato, en coordinaci\u00f3n con la Direcci\u00f3n de Educaci\u00f3n, impulsa programas de reciclaje en las escuelas."
+  },
+  {
+    "prompt": "\u00bfC\u00f3mo puedo solicitar una auditor\u00eda de los servicios p\u00fablicos en mi barrio?",
+    "response": "Puedes solicitar una auditor\u00eda a la Direcci\u00f3n de Control, la cual supervisa la calidad y eficiencia de los servicios p\u00fablicos municipales."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre el plan de modernizaci\u00f3n de la infraestructura vial?",
+    "response": "La Direcci\u00f3n de Obras Municipales ofrece informaci\u00f3n actualizada sobre los proyectos y planes de modernizaci\u00f3n de la infraestructura vial."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo dirigir mi consulta sobre el sistema de alumbrado inteligente?",
+    "response": "Debes consultar a la Direcci\u00f3n de Tr\u00e1nsito y Transporte P\u00fablico, que gestiona proyectos de modernizaci\u00f3n y sistemas de alumbrado inteligente."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n coordina las actividades de integraci\u00f3n social en la comuna?",
+    "response": "La Direcci\u00f3n de Desarrollo Comunitario es responsable de coordinar actividades y programas que fomenten la integraci\u00f3n social."
+  },
+  {
+    "prompt": "\u00bfC\u00f3mo puedo solicitar la reparaci\u00f3n de mobiliario urbano en mi sector?",
+    "response": "Puedes solicitar la reparaci\u00f3n de mobiliario urbano a la Direcci\u00f3n de Servicios Generales, encargada del mantenimiento de este equipamiento."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre el programa de becas para estudiantes municipales?",
+    "response": "La Direcci\u00f3n de Servicios Incorporados a la Gesti\u00f3n y la Secretar\u00eda Municipal ofrecen informaci\u00f3n sobre los programas de becas disponibles para estudiantes."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo contactar para recibir asesor\u00eda sobre la regularizaci\u00f3n de construcciones?",
+    "response": "Debes dirigirte a la Direcci\u00f3n de Obras Municipales, que asesora sobre la regularizaci\u00f3n y actualizaci\u00f3n de construcciones existentes."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n gestiona el registro de asociaciones vecinales en la municipalidad?",
+    "response": "La Secretar\u00eda Municipal y la Direcci\u00f3n de Desarrollo Comunitario colaboran en el registro y formalizaci\u00f3n de asociaciones vecinales."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo consultar las normativas sobre el uso de espacios p\u00fablicos?",
+    "response": "Puedes consultar las normativas en la Secretar\u00eda Municipal, que se encarga de difundir y regular el uso de espacios p\u00fablicos."
+  },
+  {
+    "prompt": "\u00bfC\u00f3mo puedo reportar un problema con el sistema de drenaje pluvial?",
+    "response": "Debes reportar el inconveniente a la Direcci\u00f3n de Obras Municipales, responsable del mantenimiento y reparaci\u00f3n del sistema de drenaje."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo contactar para solicitar la ampliaci\u00f3n de aceras en mi calle?",
+    "response": "La Direcci\u00f3n de Obras Municipales gestiona proyectos de ampliaci\u00f3n y mejora de aceras en la comuna."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n supervisa la calidad del agua potable en la comuna?",
+    "response": "La Direcci\u00f3n de Salud P\u00fablica, en coordinaci\u00f3n con la Direcci\u00f3n de Obras Municipales, se encarga de supervisar la calidad del agua potable."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre el plan de seguridad vial municipal?",
+    "response": "Puedes obtener informaci\u00f3n en la Direcci\u00f3n de Tr\u00e1nsito y Transporte P\u00fablico, que coordina el plan de seguridad vial en la comuna."
+  },
+  {
+    "prompt": "\u00bfC\u00f3mo puedo solicitar asistencia para la construcci\u00f3n de senderos peatonales?",
+    "response": "Debes dirigir tu solicitud a la Direcci\u00f3n de Obras Municipales, encargada de la construcci\u00f3n y mantenimiento de senderos peatonales."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo contactar para conocer los requisitos de instalaci\u00f3n de publicidad exterior?",
+    "response": "Puedes consultar en la Direcci\u00f3n de Administraci\u00f3n y Finanzas, que regula la instalaci\u00f3n de publicidad en espacios p\u00fablicos."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n gestiona los permisos para la instalaci\u00f3n de puestos de comida ambulante?",
+    "response": "La Direcci\u00f3n de Obras Municipales se encarga de emitir los permisos para la instalaci\u00f3n de puestos de comida ambulante en la v\u00eda p\u00fablica."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo consultar sobre el programa de incentivos para el uso de bicicletas?",
+    "response": "La Direcci\u00f3n de Tr\u00e1nsito y Transporte P\u00fablico ofrece informaci\u00f3n sobre incentivos y programas para fomentar el uso de bicicletas."
+  },
+  {
+    "prompt": "\u00bfC\u00f3mo puedo inscribir mi propuesta en la mesa de trabajo de innovaci\u00f3n urbana?",
+    "response": "Debes dirigirte a la Secretar\u00eda Municipal de Innovaci\u00f3n y Participaci\u00f3n, que coordina las propuestas de innovaci\u00f3n urbana en la comuna."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo consultar para obtener detalles sobre el plan de desarrollo tecnol\u00f3gico municipal?",
+    "response": "La Direcci\u00f3n de Desarrollo Comunitario impulsa iniciativas tecnol\u00f3gicas y puede ofrecerte detalles sobre el plan de desarrollo tecnol\u00f3gico municipal."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n coordina las actividades de voluntariado en la comuna?",
+    "response": "La Direcci\u00f3n de Desarrollo Comunitario es responsable de coordinar los programas y actividades de voluntariado en la comuna."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre los procesos de contrataci\u00f3n p\u00fablica municipal?",
+    "response": "La Secretar\u00eda Municipal publica y gestiona los procesos de contrataci\u00f3n p\u00fablica, donde puedes obtener toda la informaci\u00f3n requerida."
+  },
+  {
+    "prompt": "\u00bfC\u00f3mo puedo solicitar asistencia t\u00e9cnica para la construcci\u00f3n de un centro comunitario?",
+    "response": "Debes dirigirte a la Direcci\u00f3n de Obras Municipales, que ofrece asistencia t\u00e9cnica para proyectos de infraestructura comunitaria."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo contactar para conocer los detalles del programa de fomento a la cultura?",
+    "response": "La Direcci\u00f3n de Cultura y Deportes gestiona y promueve el programa de fomento a la cultura en la comuna."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n se encarga del mantenimiento de jardines y \u00e1reas verdes en el centro urbano?",
+    "response": "La Direcci\u00f3n de Medio Ambiente, Aseo y Ornato se encarga del mantenimiento de jardines y \u00e1reas verdes en el centro urbano."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre el registro de vendedores informales?",
+    "response": "Puedes consultar el registro de vendedores informales en la Direcci\u00f3n de Administraci\u00f3n y Finanzas, que administra dicho registro."
+  },
+  {
+    "prompt": "\u00bfC\u00f3mo puedo reportar un problema de señalizaci\u00f3n en intersecciones cr\u00edticas?",
+    "response": "Debes reportar el problema a la Direcci\u00f3n de Tr\u00e1nsito y Transporte P\u00fablico, responsable de la señalizaci\u00f3n y seguridad vial."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo dirigir mi consulta sobre el plan de conservaci\u00f3n del patrimonio hist\u00f3rico?",
+    "response": "La Direcci\u00f3n de Cultura y Deportes, en coordinaci\u00f3n con la Secretar\u00eda Municipal de Planificaci\u00f3n, se encarga de la conservaci\u00f3n del patrimonio hist\u00f3rico."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n organiza actividades recreativas para j\u00f3venes en la comuna?",
+    "response": "La Direcci\u00f3n de Cultura y Deportes organiza y promueve actividades recreativas y programas de integraci\u00f3n para los j\u00f3venes."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo consultar sobre el programa de rehabilitaci\u00f3n de viviendas antiguas?",
+    "response": "Debes consultar a la Direcci\u00f3n de Obras Municipales, que ofrece informaci\u00f3n y apoyo en programas de rehabilitaci\u00f3n de viviendas antiguas."
+  },
+  {
+    "prompt": "\u00bfC\u00f3mo puedo solicitar una inspecci\u00f3n de seguridad en mi edificio?",
+    "response": "Puedes solicitar una inspecci\u00f3n de seguridad a la Direcci\u00f3n de Control, encargada de supervisar la seguridad en edificaciones municipales."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo obtener informaci\u00f3n sobre el plan de movilidad urbana?",
+    "response": "La Direcci\u00f3n de Tr\u00e1nsito y Transporte P\u00fablico ofrece detalles y actualizaciones sobre el plan de movilidad urbana de la comuna."
+  },
+  {
+    "prompt": "\u00bfQui\u00e9n gestiona el registro y supervisi\u00f3n de mercados municipales?",
+    "response": "La Direcci\u00f3n de Desarrollo Comunitario, en coordinaci\u00f3n con la Administraci\u00f3n Municipal, gestiona el registro y supervisi\u00f3n de mercados municipales."
+  },
+  {
+    "prompt": "\u00bfD\u00f3nde puedo consultar la normativa para la construcci\u00f3n de \u00e1reas comerciales?",
+    "response": "Debes consultar a la Secretar\u00eda Comunal de Planificaci\u00f3n, que regula y emite normativas para la construcci\u00f3n de \u00e1reas comerciales."
+  },
+  {
+    "prompt": "\u00bfC\u00f3mo puedo reportar irregularidades en la gesti\u00f3n de residuos municipales?",
+    "response": "Puedes reportar irregularidades a la Direcci\u00f3n de Control, que supervisa la correcta gesti\u00f3n y manejo de residuos en la comuna."
+  },
+  {
+    "prompt": "\u00bfA qui\u00e9n debo dirigir mi consulta para conocer los proyectos de desarrollo sostenible de la comuna?",
+    "response": "La Direcci\u00f3n de Desarrollo Comunitario es la encargada de coordinar y difundir los proyectos de desarrollo sostenible en la comuna."
+  }
+]

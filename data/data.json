@@ -1,0 +1,547 @@
+[
+  {
+    "prompt": "¿Dónde puedo solicitar un certificado de residencia?",
+    "response": "Debes acudir a la Secretaría Municipal, que emite certificados de residencia con la validación de la junta de vecinos correspondiente. - [Secretaría Municipal]"
+  },
+  {
+    "prompt": "¿Cómo puedo obtener información sobre el Plan Regulador Comunal?",
+    "response": "Debes dirigirte a la Secretaría Comunal de Planificación (SECPLAN), que administra la planificación territorial y el Plan Regulador Comunal. - [Secretaría Comunal de Planificación]"
+  },
+  {
+    "prompt": "¿Dónde se gestionan los permisos para la instalación de antenas de telecomunicaciones?",
+    "response": "La Dirección de Obras Municipales es la encargada de otorgar permisos para la instalación de antenas de telecomunicaciones, siguiendo la normativa vigente. - [Dirección de Obras Municipales]"
+  },
+  {
+    "prompt": "¿Cómo puedo solicitar información sobre las licitaciones municipales?",
+    "response": "Debes dirigirte a la Dirección de Administración y Finanzas, que gestiona las licitaciones y contratos municipales. - [Dirección de Administración y Finanzas]"
+  },
+  {
+    "prompt": "¿Dónde puedo consultar sobre el cobro de derechos municipales?",
+    "response": "Puedes acudir a la Tesorería Municipal, dependiente de la Dirección de Administración y Finanzas, que gestiona el cobro de derechos e impuestos municipales. - [Dirección de Administración y Finanzas] [Tesorería Municipal]"
+  },
+  {
+    "prompt": "¿Cómo puedo acceder a los servicios de salud municipal?",
+    "response": "El Departamento de Salud Municipal administra los centros de atención primaria, CESFAM y postas rurales donde puedes recibir atención médica gratuita o subsidiada. - [Departamento de Salud Municipal]"
+  },
+  {
+    "prompt": "¿Dónde puedo obtener información sobre programas de educación municipal?",
+    "response": "Debes acudir al Departamento de Educación Municipal (DAEM), que administra los establecimientos educacionales municipales y programas de apoyo estudiantil. - [Departamento de Educación Municipal]"
+  },
+  {
+    "prompt": "¿Cómo puedo denunciar una infracción a las normas de urbanismo y construcción?",
+    "response": "Debes presentar tu denuncia en la Dirección de Obras Municipales, que fiscaliza el cumplimiento de la Ley General de Urbanismo y Construcciones. - [Dirección de Obras Municipales]"
+  },
+  {
+    "prompt": "¿Dónde se tramitan los permisos para el comercio ambulante?",
+    "response": "Debes acudir a la Dirección de Administración y Finanzas, que otorga permisos a comerciantes ambulantes en función de la normativa vigente. - [Dirección de Administración y Finanzas]"
+  },
+  {
+    "prompt": "¿Dónde puedo solicitar apoyo en caso de violencia intrafamiliar?",
+    "response": "Puedes dirigirte a la Oficina de la Mujer, dependiente de la Dirección de Desarrollo Comunitario (DIDECO), que ofrece asesoría y acompañamiento en casos de violencia de género. - [Dirección de Desarrollo Comunitario] [Oficina de la Mujer]"
+  },
+  {
+    "prompt": "¿Cómo puedo solicitar la instalación de señalética vial en mi barrio?",
+    "response": "Debes presentar la solicitud en la Dirección de Tránsito y Transporte Público, que evalúa la necesidad de nueva señalética y su instalación. - [Dirección de Tránsito y Transporte Público]"
+  },
+  {
+    "prompt": "¿Dónde puedo obtener información sobre programas de reinserción laboral?",
+    "response": "Puedes dirigirte a la Oficina Municipal de Información Laboral (OMIL), dependiente de la Dirección de Desarrollo Comunitario (DIDECO), que ofrece orientación y capacitación laboral. - [Dirección de Desarrollo Comunitario] [OMIL]"
+  },
+  {
+    "prompt": "¿Cómo puedo solicitar la poda de árboles en mi barrio?",
+    "response": "Debes acudir a la Dirección de Medio Ambiente, Aseo y Ornato, que gestiona la mantención del arbolado urbano. - [Dirección de Medio Ambiente, Aseo y Ornato]"
+  },
+  {
+    "prompt": "¿Dónde se gestionan los permisos para instalar una feria artesanal?",
+    "response": "Debes acudir a la Dirección de Administración y Finanzas, que regula el uso del espacio público para ferias artesanales y otros eventos comerciales. - [Dirección de Administración y Finanzas]"
+  },
+  {
+    "prompt": "¿Cómo puedo solicitar ayuda en caso de emergencia social?",
+    "response": "Debes dirigirte al Departamento de Acción Social de la Dirección de Desarrollo Comunitario (DIDECO), que ofrece asistencia a personas en situación de vulnerabilidad. - [Dirección de Desarrollo Comunitario] [Departamento de Acción Social]"
+  },
+  {
+    "prompt": "¿Dónde puedo denunciar la ocupación ilegal de un espacio público?",
+    "response": "Debes hacer la denuncia en la Dirección de Seguridad Pública, que fiscaliza el uso indebido de espacios municipales y nacionales de uso público. - [Dirección de Seguridad Pública]"
+  },
+  {
+    "prompt": "¿Cómo puedo solicitar el retiro de escombros y basura volumétrica?",
+    "response": "Puedes solicitarlo en la Dirección de Medio Ambiente, Aseo y Ornato, que gestiona el retiro de residuos de gran tamaño en la comuna. - [Dirección de Medio Ambiente, Aseo y Ornato]"
+  },
+  {
+    "prompt": "¿Dónde puedo obtener información sobre prevención del delito?",
+    "response": "Puedes dirigirte a la Dirección de Seguridad Pública, que gestiona programas de prevención del delito y seguridad vecinal. - [Dirección de Seguridad Pública]"
+  },
+  {
+    "prompt": "¿Cómo puedo reportar una luminaria pública que no funciona?",
+    "response": "Debes hacer la denuncia en la Dirección de Medio Ambiente, Aseo y Ornato, que coordina el mantenimiento del alumbrado público. - [Dirección de Medio Ambiente, Aseo y Ornato]"
+  },
+  {
+    "prompt": "¿Dónde puedo solicitar la instalación de lomos de toro en mi calle?",
+    "response": "Debes presentar la solicitud en la Dirección de Tránsito y Transporte Público, que evalúa la factibilidad de instalación de reductores de velocidad. - [Dirección de Tránsito y Transporte Público]"
+  },
+  {
+    "prompt": "¿Cómo puedo postular a un subsidio habitacional?",
+    "response": "Debes acudir al Departamento de Vivienda, dependiente de la Dirección de Desarrollo Comunitario (DIDECO), que asesora a los ciudadanos en la postulación a subsidios habitacionales. - [Dirección de Desarrollo Comunitario] [Departamento de Vivienda]"
+  },
+  {
+    "prompt": "¿Dónde se gestiona el permiso para cierre de calles en eventos vecinales?",
+    "response": "Debes solicitarlo en la Dirección de Tránsito y Transporte Público, que evalúa y aprueba los cierres temporales de calles para actividades comunitarias. - [Dirección de Tránsito y Transporte Público]"
+  },
+  {
+    "prompt": "¿Dónde puedo denunciar una invasión de plagas en mi barrio?",
+    "response": "Debes dirigirte a la Dirección de Medio Ambiente, Aseo y Ornato, que coordina programas de control de plagas en la comuna. - [Dirección de Medio Ambiente, Aseo y Ornato]"
+  },
+  {
+    "prompt": "¿Cómo puedo acceder a programas de capacitación para emprendedores?",
+    "response": "Debes dirigirte a la Oficina de Fomento Productivo, que ofrece capacitaciones y asesoramiento para emprendedores y PYMEs. - [Dirección de Desarrollo Comunitario] [Oficina de Fomento Productivo]"
+  },
+  {
+    "prompt": "¿Dónde puedo obtener un permiso para filmar en espacios públicos?",
+    "response": "Debes solicitarlo en la Dirección de Relaciones Públicas, que gestiona los permisos para grabaciones en la vía pública y otros espacios municipales. - [Dirección de Relaciones Públicas]"
+  },
+  {
+    "prompt": "¿Cómo puedo reportar la falta de señalización en una intersección peligrosa?",
+    "response": "Debes hacer la solicitud en la Dirección de Tránsito y Transporte Público, que evalúa la instalación de señalización vial. - [Dirección de Tránsito y Transporte Público]"
+  },
+  {
+    "prompt": "¿Dónde puedo solicitar una patente para un restaurante o cafetería?",
+    "response": "Debes acudir a la Dirección de Administración y Finanzas, que gestiona las patentes comerciales para locales de comida. - [Dirección de Administración y Finanzas]"
+  },
+  {
+    "prompt": "¿Cómo puedo acceder a un subsidio de gas para familias vulnerables?",
+    "response": "Debes dirigirte al Departamento de Acción Social de la Dirección de Desarrollo Comunitario (DIDECO), que administra subsidios municipales para grupos vulnerables. - [Dirección de Desarrollo Comunitario] [Departamento de Acción Social]"
+  },
+  {
+    "prompt": "¿Dónde puedo inscribirme en actividades recreativas municipales?",
+    "response": "Puedes dirigirte a la Oficina de Deportes, dependiente de la Dirección de Desarrollo Comunitario (DIDECO), que organiza talleres y actividades recreativas. - [Dirección de Desarrollo Comunitario] [Oficina de Deportes]"
+  },
+  {
+    "prompt": "¿Dónde puedo reportar la falta de recolección de basura en mi sector?",
+    "response": "Debes presentar tu reclamo en la Dirección de Medio Ambiente, Aseo y Ornato, que supervisa la recolección de residuos domiciliarios. - [Dirección de Medio Ambiente, Aseo y Ornato]"
+  },
+  {
+    "prompt": "¿Cómo puedo solicitar la reparación de juegos infantiles en una plaza?",
+    "response": "Debes hacer la solicitud en la Dirección de Medio Ambiente, Aseo y Ornato, que administra el mantenimiento de espacios públicos y áreas recreativas. - [Dirección de Medio Ambiente, Aseo y Ornato]"
+  },
+  {
+    "prompt": "¿Dónde puedo pedir la instalación de más luminarias en mi barrio?",
+    "response": "Debes solicitarlo en la Dirección de Medio Ambiente, Aseo y Ornato, que coordina proyectos de iluminación pública. - [Dirección de Medio Ambiente, Aseo y Ornato]"
+  },
+  {
+    "prompt": "¿Cómo puedo presentar una denuncia sobre abuso de poder de un funcionario municipal?",
+    "response": "Puedes presentar tu denuncia en la Oficina de Transparencia y Ética Municipal, que gestiona las investigaciones sobre conducta de funcionarios. - [Oficina de Transparencia y Ética Municipal]"
+  },
+  {
+    "prompt": "¿Dónde puedo solicitar la eliminación de un basural clandestino?",
+    "response": "Debes denunciarlo en la Dirección de Medio Ambiente, Aseo y Ornato, que coordina operativos de limpieza en espacios públicos. - [Dirección de Medio Ambiente, Aseo y Ornato]"
+  },
+  {
+    "prompt": "¿Cómo puedo acceder a orientación psicológica gratuita?",
+    "response": "Puedes dirigirte al Departamento de Acción Social de la Dirección de Desarrollo Comunitario (DIDECO), que ofrece apoyo psicológico a personas en situación de vulnerabilidad. - [Dirección de Desarrollo Comunitario] [Departamento de Acción Social]"
+  },
+  {
+    "prompt": "¿Dónde puedo obtener información sobre programas para adultos mayores?",
+    "response": "Puedes acudir a la Oficina del Adulto Mayor, que gestiona programas y beneficios para personas mayores en la comuna. - [Dirección de Desarrollo Comunitario] [Oficina del Adulto Mayor]"
+  },
+  {
+    "prompt": "¿Cómo puedo inscribir a mi hijo en una escuela municipal?",
+    "response": "Debes dirigirte al Departamento de Educación Municipal (DAEM), que gestiona la matrícula en establecimientos educativos municipales. - [Departamento de Educación Municipal]"
+  },
+  {
+    "prompt": "¿Dónde puedo obtener ayuda para regularizar mi título de propiedad?",
+    "response": "Debes acudir al Departamento de Vivienda, que ofrece asesoramiento para la regularización de propiedades en la comuna. - [Dirección de Desarrollo Comunitario] [Departamento de Vivienda]"
+  },
+  {
+    "prompt": "¿Cómo puedo postular a trabajos en la municipalidad?",
+    "response": "Puedes revisar las convocatorias en la Oficina de Recursos Humanos, dependiente de la Dirección de Administración y Finanzas, donde se publican las ofertas de empleo municipal. - [Dirección de Administración y Finanzas] [Oficina de Recursos Humanos]"
+  },
+  {
+    "prompt": "¿Dónde puedo solicitar una exención en el pago de contribuciones municipales?",
+    "response": "Debes dirigirte a la Tesorería Municipal, que evalúa solicitudes de exención de pagos según los criterios establecidos. - [Dirección de Administración y Finanzas] [Tesorería Municipal]"
+  },
+
+  {
+    "prompt": "¿Dónde puedo solicitar una beca para estudiantes de enseñanza básica o media?",
+    "response": "Puedes dirigirte al Departamento de Promoción Social, que gestiona las becas municipales para estudiantes de enseñanza básica y media. - [Dirección de Desarrollo Comunitario] [Departamento de Promoción Social]"
+  },
+  {
+    "prompt": "¿Cómo puedo obtener una copia de la boleta de aseo domiciliario?",
+    "response": "Debes acudir a la Dirección de Administración y Finanzas, específicamente al Departamento de Rentas, donde se gestionan las boletas por servicios municipales. - [Dirección de Administración y Finanzas] [Departamento de Rentas]"
+  },
+  {
+    "prompt": "¿Dónde puedo denunciar la obstrucción de una vía pública por escombros?",
+    "response": "Puedes presentar la denuncia en la Dirección de Obras Municipales, que fiscaliza el uso de las vías públicas y las condiciones de limpieza en la comuna. - [Dirección de Obras Municipales]"
+  },
+  {
+    "prompt": "¿Cómo puedo acceder a apoyo para personas en situación de discapacidad?",
+    "response": "Debes acudir a la Oficina de Discapacidad, que ofrece apoyo y orientación para la inclusión social de personas con discapacidad. - [Dirección de Desarrollo Comunitario] [Oficina de Discapacidad]"
+  },
+  {
+    "prompt": "¿Dónde puedo solicitar un permiso para realizar rifas o bingos solidarios?",
+    "response": "Debes dirigirte a la Secretaría Municipal, que emite los permisos para actividades benéficas de organizaciones comunitarias. - [Secretaría Municipal]"
+  },
+  {
+    "prompt": "¿Cómo puedo solicitar ayuda para regularizar una vivienda en toma?",
+    "response": "Puedes solicitar asesoría en el Departamento de Vivienda, que ayuda a los vecinos en procesos de regularización de viviendas. - [Dirección de Desarrollo Comunitario] [Departamento de Vivienda]"
+  },
+  {
+    "prompt": "¿Dónde puedo solicitar la instalación de contenedores de reciclaje en mi barrio?",
+    "response": "Debes presentar la solicitud en la Dirección de Medio Ambiente, Aseo y Ornato, que administra la instalación de puntos verdes y reciclaje. - [Dirección de Medio Ambiente, Aseo y Ornato]"
+  },
+  {
+    "prompt": "¿Cómo puedo inscribirme en talleres de arte o cultura?",
+    "response": "Puedes acudir al Departamento de Cultura, que organiza talleres gratuitos y actividades culturales para la comunidad. - [Dirección de Desarrollo Comunitario] [Departamento de Cultura]"
+  },
+  {
+    "prompt": "¿Dónde puedo solicitar ayuda para regularizar la situación de extranjeros residentes?",
+    "response": "Puedes dirigirte a la Oficina de Migrantes, que ofrece asesoría para la regularización de documentos de extranjeros residentes. - [Dirección de Desarrollo Comunitario] [Oficina de Migrantes]"
+  },
+  {
+    "prompt": "¿Cómo puedo solicitar un informe sobre el estado de los espacios públicos?",
+    "response": "Debes acudir a la Dirección de Medio Ambiente, Aseo y Ornato, que supervisa el estado de plazas, parques y áreas verdes. - [Dirección de Medio Ambiente, Aseo y Ornato]"
+  },
+  {
+    "prompt": "¿Dónde puedo denunciar irregularidades en licitaciones municipales?",
+    "response": "Debes presentar la denuncia en la Dirección de Control, que fiscaliza la legalidad de los actos administrativos municipales. - [Dirección de Control]"
+  },
+  {
+    "prompt": "¿Cómo puedo solicitar ayuda para el pago de arriendo de vivienda en caso de emergencia?",
+    "response": "Puedes solicitar apoyo en el Departamento de Acción Social, que gestiona ayudas sociales para emergencias habitacionales. - [Dirección de Desarrollo Comunitario] [Departamento de Acción Social]"
+  },
+  {
+    "prompt": "¿Dónde puedo obtener información sobre adopción de mascotas?",
+    "response": "Puedes consultar en la Oficina de Tenencia Responsable, que coordina campañas de adopción y esterilización de animales. - [Dirección de Medio Ambiente, Aseo y Ornato] [Oficina de Tenencia Responsable]"
+  },
+  {
+    "prompt": "¿Cómo puedo participar en la consulta ciudadana sobre proyectos comunales?",
+    "response": "Puedes obtener información en la Secretaría Comunal de Planificación (SECPLAN), que organiza las consultas ciudadanas para proyectos comunales. - [Secretaría Comunal de Planificación]"
+  },
+  {
+    "prompt": "¿Dónde puedo solicitar acceso a la farmacia popular municipal?",
+    "response": "Debes dirigirte al Departamento de Salud Municipal, que gestiona la farmacia popular para la venta de medicamentos a precios reducidos. - [Departamento de Salud Municipal]"
+  },
+  {
+    "prompt": "¿Cómo puedo obtener apoyo para iniciar un emprendimiento agrícola?",
+    "response": "Debes acudir a la Oficina de Fomento Productivo, que asesora a emprendedores agrícolas con capacitaciones y financiamiento. - [Dirección de Desarrollo Comunitario] [Oficina de Fomento Productivo]"
+  },
+  {
+    "prompt": "¿Dónde puedo solicitar la instalación de cámaras de seguridad en mi barrio?",
+    "response": "Debes presentar la solicitud en la Dirección de Seguridad Pública, que evalúa la instalación de cámaras de vigilancia en coordinación con la comunidad. - [Dirección de Seguridad Pública]"
+  },
+  {
+    "prompt": "¿Cómo puedo acceder a los beneficios de la tarjeta adulto mayor?",
+    "response": "Puedes inscribirte en la Oficina del Adulto Mayor, que coordina la entrega de la tarjeta con beneficios municipales. - [Dirección de Desarrollo Comunitario] [Oficina del Adulto Mayor]"
+  },
+  {
+    "prompt": "¿Dónde puedo denunciar la tala ilegal de árboles en mi barrio?",
+    "response": "Debes hacer la denuncia en la Dirección de Medio Ambiente, Aseo y Ornato, que fiscaliza la protección del arbolado urbano. - [Dirección de Medio Ambiente, Aseo y Ornato]"
+  },
+  {
+    "prompt": "¿Cómo puedo solicitar apoyo para la adopción de energía solar en mi hogar?",
+    "response": "Debes acudir a la Oficina de Medio Ambiente, que gestiona proyectos de eficiencia energética para la comunidad. - [Dirección de Medio Ambiente, Aseo y Ornato] [Oficina de Medio Ambiente]"
+  },
+  {
+    "prompt": "¿Dónde puedo denunciar vehículos mal estacionados que bloquean accesos?",
+    "response": "Debes presentar la denuncia en la Dirección de Tránsito y Transporte Público, que fiscaliza las infracciones de estacionamiento. - [Dirección de Tránsito y Transporte Público]"
+  },
+  {
+    "prompt": "¿Cómo puedo participar en el Presupuesto Participativo de la comuna?",
+    "response": "Puedes informarte en la Dirección de Desarrollo Comunitario (DIDECO), que coordina la votación y postulación de proyectos ciudadanos. - [Dirección de Desarrollo Comunitario]"
+  },
+  {
+    "prompt": "¿Dónde debo consultar sobre la reparación de una calle?",
+    "response": "Debes consultar en la Dirección de Obras Municipales, específicamente en el Departamento de Inspección Técnica de Obras. - [Dirección de Obras Municipales] [Departamento de Inspección Técnica de Obras]."
+  },
+  {
+    "prompt": "¿Quién es responsable de la gestión financiera de la municipalidad?",
+    "response": "La gestión financiera de la municipalidad está a cargo de la Dirección de Administración y Finanzas. - [Dirección de Administración y Finanzas]."
+  },
+  {
+    "prompt": "¿A dónde debo acudir para obtener una licencia de conducir?",
+    "response": "Debes acudir al Departamento de Licencias de Conducir, que forma parte de la Dirección de Tránsito y Transporte Público. - [Dirección de Tránsito y Transporte Público] [Departamento de Licencias de Conducir]."
+  },
+  {
+    "prompt": "¿Dónde puedo solicitar un permiso de circulación para mi vehículo?",
+    "response": "Puedes solicitar un permiso de circulación en el Departamento de Permisos de Circulación, dependiente de la Dirección de Tránsito y Transporte Público. - [Dirección de Tránsito y Transporte Público] [Departamento de Permisos de Circulación]."
+  },
+  {
+    "prompt": "¿Quién se encarga de la recolección de basura en la comuna?",
+    "response": "La recolección de basura está a cargo del Departamento de Aseo y Ornato, dependiente de la Dirección de Medio Ambiente, Aseo y Ornato. - [Dirección de Medio Ambiente, Aseo y Ornato] [Departamento de Aseo y Ornato]."
+  },
+  {
+    "prompt": "¿Dónde puedo denunciar un problema de ruidos molestos?",
+    "response": "Puedes denunciar problemas de ruidos molestos en la Sección de Inspecciones, dependiente del Departamento de Administración. - [Dirección de Administración y Finanzas] [Sección de Inspecciones]."
+  },
+  {
+    "prompt": "¿A dónde debo acudir para solicitar un permiso de construcción?",
+    "response": "Debes acudir a la Dirección de Obras Municipales, específicamente a la Sección de Permisos y Recepciones. - [Dirección de Obras Municipales] [Sección de Permisos y Recepciones]."
+  },
+  {
+    "prompt": "¿Quién se encarga de la seguridad ciudadana en la comuna?",
+    "response": "La seguridad ciudadana está a cargo de la Dirección de Seguridad Pública. - [Dirección de Seguridad Pública]."
+  },
+  {
+    "prompt": "¿Dónde puedo obtener información sobre programas sociales?",
+    "response": "Puedes obtener información sobre programas sociales en el Departamento de Promoción Social, dependiente de la Dirección de Desarrollo Comunitario. - [Dirección de Desarrollo Comunitario] [Departamento de Promoción Social]."
+  },
+  {
+    "prompt": "¿A dónde debo acudir para solicitar una subvención municipal?",
+    "response": "Debes acudir al Departamento de Acción Social, dependiente de la Dirección de Desarrollo Comunitario. - [Dirección de Desarrollo Comunitario] [Departamento de Acción Social]."
+  },
+  {
+    "prompt": "¿Quién se encarga de la mantención de los semáforos en la comuna?",
+    "response": "La mantención de los semáforos está a cargo de la Dirección de Tránsito y Transporte Público. - [Dirección de Tránsito y Transporte Público]."
+  },
+  {
+    "prompt": "¿Dónde puedo denunciar un problema de contaminación ambiental?",
+    "response": "Puedes denunciar problemas de contaminación ambiental en el Departamento de Medio Ambiente, dependiente de la Dirección de Medio Ambiente, Aseo y Ornato. - [Dirección de Medio Ambiente, Aseo y Ornato] [Departamento de Medio Ambiente]."
+  },
+  {
+    "prompt": "¿A dónde debo acudir para solicitar un permiso de comercio ambulante?",
+    "response": "Debes acudir al Departamento de Rentas, dependiente de la Dirección de Administración y Finanzas. - [Dirección de Administración y Finanzas] [Departamento de Rentas]."
+  },
+  {
+    "prompt": "¿Quién se encarga de la organización de eventos culturales en la comuna?",
+    "response": "La organización de eventos culturales está a cargo del Departamento de Cultura y Deportes, dependiente de la Dirección de Desarrollo Comunitario. - [Dirección de Desarrollo Comunitario] [Departamento de Cultura y Deportes]."
+  },
+  {
+    "prompt": "¿Dónde puedo obtener información sobre programas de empleo?",
+    "response": "Puedes obtener información sobre programas de empleo en la Oficina Municipal de Intermediación Laboral (OMIL), dependiente del Departamento de Desarrollo Económico Local. - [Dirección de Desarrollo Comunitario] [Oficina Municipal de Intermediación Laboral (OMIL)]."
+  },
+  {
+    "prompt": "¿A dónde debo acudir para solicitar un informe social?",
+    "response": "Debes acudir al Departamento de Acción Social, dependiente de la Dirección de Desarrollo Comunitario. - [Dirección de Desarrollo Comunitario] [Departamento de Acción Social]."
+  },
+  {
+    "prompt": "¿Quién se encarga de la mantención de las áreas verdes en la comuna?",
+    "response": "La mantención de las áreas verdes está a cargo del Departamento de Aseo y Ornato, dependiente de la Dirección de Medio Ambiente, Aseo y Ornato. - [Dirección de Medio Ambiente, Aseo y Ornato] [Departamento de Aseo y Ornato]."
+  },
+  {
+    "prompt": "¿Dónde puedo denunciar un problema de alumbrado público?",
+    "response": "Puedes denunciar problemas de alumbrado público en la Dirección de Servicios Generales, específicamente en la Sección de Mantención. - [Dirección de Servicios Generales] [Sección de Mantención]."
+  },
+  {
+    "prompt": "¿A dónde debo acudir para solicitar un permiso de publicidad en la vía pública?",
+    "response": "Debes acudir al Departamento de Rentas, dependiente de la Dirección de Administración y Finanzas. - [Dirección de Administración y Finanzas] [Departamento de Rentas]."
+  },
+  {
+    "prompt": "¿Quién se encarga de la fiscalización del comercio en la comuna?",
+    "response": "La fiscalización del comercio está a cargo de la Sección de Inspecciones, dependiente del Departamento de Administración. - [Dirección de Administración y Finanzas] [Sección de Inspecciones]."
+  },
+  {
+    "prompt": "¿Dónde puedo obtener información sobre programas de turismo en la comuna?",
+    "response": "Puedes obtener información sobre programas de turismo en la Oficina de Turismo Local, dependiente del Departamento de Desarrollo Económico Local. - [Dirección de Desarrollo Comunitario] [Oficina de Turismo Local]."
+  },
+  {
+    "prompt": "¿A dónde debo acudir para solicitar un permiso de uso de suelo?",
+    "response": "Debes acudir a la Dirección de Obras Municipales, específicamente a la Sección de Permisos y Recepciones. - [Dirección de Obras Municipales] [Sección de Permisos y Recepciones]."
+  },
+  {
+    "prompt": "¿Quién se encarga de la gestión de emergencias en la comuna?",
+    "response": "La gestión de emergencias está a cargo del Departamento de Protección Civil y Emergencia, dependiente de la Dirección de Seguridad Pública. - [Dirección de Seguridad Pública] [Departamento de Protección Civil y Emergencia]."
+  },
+  {
+    "prompt": "¿Dónde puedo denunciar un problema de tránsito?",
+    "response": "Puedes denunciar problemas de tránsito en la Dirección de Tránsito y Transporte Público, específicamente en el Departamento de Ingeniería y Operaciones. - [Dirección de Tránsito y Transporte Público] [Departamento de Ingeniería y Operaciones]."
+  },
+  {
+    "prompt": "¿A dónde debo acudir para solicitar un permiso de eventos especiales?",
+    "response": "Debes acudir a la Dirección de Relaciones Públicas, específicamente en la Sección de Ceremonial y Protocolo. - [Dirección de Relaciones Públicas] [Sección de Ceremonial y Protocolo]."
+  },
+  {
+    "prompt": "¿Quién se encarga de la fiscalización de obras en la comuna?",
+    "response": "La fiscalización de obras está a cargo del Departamento de Inspección Técnica de Obras, dependiente de la Dirección de Obras Municipales. - [Dirección de Obras Municipales] [Departamento de Inspección Técnica de Obras]."
+  },
+  {
+    "prompt": "¿Dónde puedo obtener información sobre programas de apoyo a la tercera edad?",
+    "response": "Puedes obtener información sobre programas de apoyo a la tercera edad en el Departamento de Promoción Social, específicamente en la Oficina del Adulto Mayor. - [Dirección de Desarrollo Comunitario] [Oficina del Adulto Mayor]."
+  },
+  {
+    "prompt": "¿A dónde debo acudir para solicitar un permiso de ocupación de la vía pública?",
+    "response": "Debes acudir a la Dirección de Obras Municipales, específicamente a la Sección de Permisos y Recepciones. - [Dirección de Obras Municipales] [Sección de Permisos y Recepciones]."
+  },
+  {
+    "prompt": "¿Quién se encarga de la gestión de residuos peligrosos en la comuna?",
+    "response": "La gestión de residuos peligrosos está a cargo del Departamento de Medio Ambiente, dependiente de la Dirección de Medio Ambiente, Aseo y Ornato. - [Dirección de Medio Ambiente, Aseo y Ornato] [Departamento de Medio Ambiente]."
+  },
+  {
+    "prompt": "¿Dónde puedo denunciar un problema de contaminación acústica?",
+    "response": "Puedes denunciar problemas de contaminación acústica en la Sección de Inspecciones, dependiente del Departamento de Administración. - [Dirección de Administración y Finanzas] [Sección de Inspecciones]."
+  },
+  {
+    "prompt": "¿A dónde debo acudir para solicitar un permiso de construcción de viviendas sociales?",
+    "response": "Debes acudir a la Dirección de Obras Municipales, específicamente a la Sección de Permisos y Recepciones. - [Dirección de Obras Municipales] [Sección de Permisos y Recepciones]."
+  },
+  {
+    "prompt": "¿Quién se encarga de la gestión de programas de salud en la comuna?",
+    "response": "La gestión de programas de salud está a cargo del Departamento de Salud Municipal, dependiente de la Dirección de Servicios Incorporados a la Gestión. - [Dirección de Servicios Incorporados a la Gestión] [Departamento de Salud Municipal]."
+  },
+  {
+    "prompt": "¿Dónde puedo obtener información sobre programas de apoyo a la mujer?",
+    "response": "Puedes obtener información sobre programas de apoyo a la mujer en el Departamento de Promoción Social, dependiente de la Dirección de Desarrollo Comunitario. - [Dirección de Desarrollo Comunitario] [Departamento de Promoción Social]."
+  },
+  {
+    "prompt": "¿A dónde debo acudir para solicitar un permiso de instalación de un letrero publicitario?",
+    "response": "Debes acudir al Departamento de Rentas, dependiente de la Dirección de Administración y Finanzas. - [Dirección de Administración y Finanzas] [Departamento de Rentas]."
+  },
+  {
+    "prompt": "¿Quién se encarga de la gestión de programas de educación en la comuna?",
+    "response": "La gestión de programas de educación está a cargo del Departamento de Educación Municipal, dependiente de la Dirección de Servicios Incorporados a la Gestión. - [Dirección de Servicios Incorporados a la Gestión] [Departamento de Educación Municipal]."
+  },
+  {
+    "prompt": "¿Dónde puedo denunciar un problema de mal estado de las calles?",
+    "response": "Puedes denunciar problemas de mal estado de las calles en la Dirección de Obras Municipales, específicamente en el Departamento de Inspección Técnica de Obras. - [Dirección de Obras Municipales] [Departamento de Inspección Técnica de Obras]."
+  },
+  {
+    "prompt": "¿A dónde debo acudir para solicitar un permiso de uso de espacios públicos para eventos?",
+    "response": "Debes acudir a la Dirección de Relaciones Públicas, específicamente en la Sección de Ceremonial y Protocolo. - [Dirección de Relaciones Públicas] [Sección de Ceremonial y Protocolo]."
+  },
+  {
+    "prompt": "¿Quién se encarga de la gestión de programas de apoyo a la juventud?",
+    "response": "La gestión de programas de apoyo a la juventud está a cargo del Departamento de Promoción Social, dependiente de la Dirección de Desarrollo Comunitario. - [Dirección de Desarrollo Comunitario] [Departamento de Promoción Social]."
+  },
+  {
+    "prompt": "¿Dónde puedo obtener información sobre programas de apoyo a la agricultura?",
+    "response": "Puedes obtener información sobre programas de apoyo a la agricultura en la Oficina Agrícola, dependiente del Departamento de Desarrollo Económico Local. - [Dirección de Desarrollo Comunitario] [Oficina Agrícola]."
+  },
+  {
+    "prompt": "¿A dónde debo acudir para solicitar un permiso de construcción de infraestructura vial?",
+    "response": "Debes acudir a la Dirección de Obras Municipales, específicamente a la Sección de Permisos y Recepciones. - [Dirección de Obras Municipales] [Sección de Permisos y Recepciones]."
+  },
+  {
+    "prompt": "¿Quién se encarga de la gestión de programas de apoyo a la discapacidad?",
+    "response": "La gestión de programas de apoyo a la discapacidad está a cargo del Departamento de Acción Social, dependiente de la Dirección de Desarrollo Comunitario. - [Dirección de Desarrollo Comunitario] [Departamento de Acción Social]."
+  },
+  {
+    "prompt": "¿Dónde puedo denunciar un problema de mal estado de los parques?",
+    "response": "Puedes denunciar problemas de mal estado de los parques en el Departamento de Aseo y Ornato, dependiente de la Dirección de Medio Ambiente, Aseo y Ornato. - [Dirección de Medio Ambiente, Aseo y Ornato] [Departamento de Aseo y Ornato]."
+  },
+  {
+    "prompt": "¿A dónde debo acudir para solicitar un permiso de construcción de infraestructura sanitaria?",
+    "response": "Debes acudir a la Dirección de Obras Municipales, específicamente a la Sección de Permisos y Recepciones. - [Dirección de Obras Municipales] [Sección de Permisos y Recepciones]."
+  },
+  {
+    "prompt": "¿Quién se encarga de la gestión de programas de apoyo a la vivienda?",
+    "response": "La gestión de programas de apoyo a la vivienda está a cargo del Departamento de Promoción Social, dependiente de la Dirección de Desarrollo Comunitario. - [Dirección de Desarrollo Comunitario] [Departamento de Promoción Social]."
+  },
+  {
+    "prompt": "¿Dónde puedo obtener información sobre programas de apoyo a la cultura?",
+    "response": "Puedes obtener información sobre programas de apoyo a la cultura en el Departamento de Cultura y Deportes, dependiente de la Dirección de Desarrollo Comunitario. - [Dirección de Desarrollo Comunitario] [Departamento de Cultura y Deportes]."
+  },
+  {
+    "prompt": "¿A dónde debo acudir para solicitar un permiso de construcción de infraestructura deportiva?",
+    "response": "Debes acudir a la Dirección de Obras Municipales, específicamente a la Sección de Permisos y Recepciones. - [Dirección de Obras Municipales] [Sección de Permisos y Recepciones]."
+  },
+  {
+    "prompt": "¿Quién se encarga de la gestión de programas de apoyo a la educación?",
+    "response": "La gestión de programas de apoyo a la educación está a cargo del Departamento de Educación Municipal, dependiente de la Dirección de Servicios Incorporados a la Gestión. - [Dirección de Servicios Incorporados a la Gestión] [Departamento de Educación Municipal]."
+  },
+  {
+    "prompt": "¿Dónde puedo denunciar un problema de mal estado de las aceras?",
+    "response": "Puedes denunciar problemas de mal estado de las aceras en la Dirección de Obras Municipales, específicamente en el Departamento de Inspección Técnica de Obras. - [Dirección de Obras Municipales] [Departamento de Inspección Técnica de Obras]."
+  },
+  {
+    "prompt": "¿A dónde debo acudir para solicitar un permiso de construcción de infraestructura educativa?",
+    "response": "Debes acudir a la Dirección de Obras Municipales, específicamente a la Sección de Permisos y Recepciones. - [Dirección de Obras Municipales] [Sección de Permisos y Recepciones]."
+  },
+  {
+    "prompt": "¿Quién se encarga de la gestión de programas de apoyo a la salud mental?",
+    "response": "La gestión de programas de apoyo a la salud mental está a cargo del Departamento de Salud Municipal, dependiente de la Dirección de Servicios Incorporados a la Gestión. - [Dirección de Servicios Incorporados a la Gestión] [Departamento de Salud Municipal]."
+  },
+  {
+    "prompt": "¿Dónde puedo obtener información sobre programas de apoyo a la recreación?",
+    "response": "Puedes obtener información sobre programas de apoyo a la recreación en el Departamento de Cultura y Deportes, dependiente de la Dirección de Desarrollo Comunitario. - [Dirección de Desarrollo Comunitario] [Departamento de Cultura y Deportes]."
+  },
+  {
+    "prompt": "¿A dónde debo acudir para solicitar un permiso de construcción de infraestructura cultural?",
+    "response": "Debes acudir a la Dirección de Obras Municipales, específicamente a la Sección de Permisos y Recepciones. - [Dirección de Obras Municipales] [Sección de Permisos y Recepciones]."
+  },
+  {
+    "prompt": "¿Quién se encarga de la gestión de programas de apoyo a la inclusión social?",
+    "response": "La gestión de programas de apoyo a la inclusión social está a cargo del Departamento de Acción Social, dependiente de la Dirección de Desarrollo Comunitario. - [Dirección de Desarrollo Comunitario] [Departamento de Acción Social]."
+  },
+  {
+    "prompt": "¿Dónde puedo denunciar un problema de mal estado de los semáforos?",
+    "response": "Puedes denunciar problemas de mal estado de los semáforos en la Dirección de Tránsito y Transporte Público, específicamente en el Departamento de Ingeniería y Operaciones. - [Dirección de Tránsito y Transporte Público] [Departamento de Ingeniería y Operaciones]."
+  },
+  {
+    "prompt": "¿Dónde puedo solicitar un certificado de residencia?",
+    "response": "Debes acudir a la Secretaría Municipal, que emite certificados de residencia con la validación de la junta de vecinos correspondiente. - [Secretaría Municipal]"
+  },
+  {
+    "prompt": "¿Cómo puedo inscribir una organización comunitaria?",
+    "response": "Debes dirigirte a la Secretaría Municipal, que lleva el registro oficial de organizaciones comunitarias. - [Secretaría Municipal]"
+  },
+  {
+    "prompt": "¿Dónde puedo solicitar un permiso para realizar una rifa benéfica?",
+    "response": "La Secretaría Municipal es la encargada de otorgar permisos para rifas y sorteos con fines benéficos. - [Secretaría Municipal]"
+  },
+  {
+    "prompt": "¿Cómo puedo participar en una audiencia pública municipal?",
+    "response": "Puedes solicitar información en la Secretaría Municipal, que organiza las audiencias públicas. - [Secretaría Municipal]"
+  },
+  {
+    "prompt": "¿Dónde se tramitan los permisos para eventos comunitarios?",
+    "response": "En la Secretaría Municipal, que coordina la autorización de actividades en espacios públicos. - [Secretaría Municipal]"
+  },
+  {
+    "prompt": "¿Cómo solicito una copia de una ordenanza municipal?",
+    "response": "Debes solicitarla en la Secretaría Municipal, donde se archivan todas las ordenanzas aprobadas. - [Secretaría Municipal]"
+  },
+  {
+    "prompt": "¿Dónde se registran las cartas de reclamo o peticiones dirigidas al alcalde?",
+    "response": "En la Secretaría Municipal, que canaliza toda la correspondencia oficial del municipio. - [Secretaría Municipal]"
+  },
+  {
+    "prompt": "¿Cómo puedo acceder a documentos históricos de la municipalidad?",
+    "response": "Puedes solicitar acceso en la Secretaría Municipal, que mantiene archivos históricos. - [Secretaría Municipal]"
+  },
+  {
+    "prompt": "¿Dónde puedo consultar las actas de las sesiones del concejo municipal?",
+    "response": "En la Secretaría Municipal, donde se archivan y publican las actas de las reuniones del concejo. - [Secretaría Municipal]"
+  },
+  {
+    "prompt": "¿Cómo puedo solicitar un cambio en el nombre de una calle?",
+    "response": "Debes presentar la solicitud en la Secretaría Municipal, que gestiona estos procesos con el concejo municipal. - [Secretaría Municipal]"
+  },
+  {
+    "prompt": "¿Cómo puedo solicitar un permiso de construcción?",
+    "response": "Debes dirigirte a la Dirección de Obras Municipales, que revisa y aprueba proyectos de construcción. - [Dirección de Obras Municipales]"
+  },
+  {
+    "prompt": "¿Dónde puedo denunciar una construcción ilegal?",
+    "response": "En la Dirección de Obras Municipales, que fiscaliza el cumplimiento de la normativa de urbanismo. - [Dirección de Obras Municipales]"
+  },
+  {
+    "prompt": "¿Cómo solicito la regularización de una ampliación en mi vivienda?",
+    "response": "Puedes presentar la solicitud en la Dirección de Obras Municipales, que evaluará si cumple con la normativa vigente. - [Dirección de Obras Municipales]"
+  },
+  {
+    "prompt": "¿Dónde puedo consultar sobre el Plan Regulador Comunal?",
+    "response": "En la Dirección de Obras Municipales, donde se administran las modificaciones al plan regulador. - [Dirección de Obras Municipales]"
+  },
+  {
+    "prompt": "¿Cómo puedo obtener una copia de los planos de mi propiedad?",
+    "response": "Puedes solicitarla en la Dirección de Obras Municipales, que resguarda los archivos de construcciones aprobadas. - [Dirección de Obras Municipales]"
+  },
+  {
+    "prompt": "¿Dónde debo acudir para pedir un informe de factibilidad de construcción?",
+    "response": "En la Dirección de Obras Municipales, que emite estos informes. - [Dirección de Obras Municipales]"
+  },
+  {
+    "prompt": "¿Cómo solicito una demolición de una edificación en mal estado?",
+    "response": "En la Dirección de Obras Municipales, que revisará la solicitud y determinará su factibilidad. - [Dirección de Obras Municipales]"
+  },
+  {
+    "prompt": "¿Dónde se tramitan los permisos para instalar letreros publicitarios en la vía pública?",
+    "response": "En la Dirección de Obras Municipales, que regula la instalación de publicidad. - [Dirección de Obras Municipales]"
+  },
+  {
+    "prompt": "¿Cómo puedo obtener información sobre restricciones de construcción en mi sector?",
+    "response": "Puedes solicitarla en la Dirección de Obras Municipales, que administra el uso del suelo. - [Dirección de Obras Municipales]"
+  },
+  {
+    "prompt": "¿Dónde solicito la revisión de daños estructurales en mi vivienda?",
+    "response": "En la Dirección de Obras Municipales, que puede evaluar riesgos estructurales. - [Dirección de Obras Municipales]"
+  }
+]
