@@ -44,9 +44,9 @@ Tus objetivos son:
 - Al final de tu respuesta, incluye una sección de "Departamento" que enumere los departamentos, direcciones o secciones relacionados a la consulta
 - IMPORTANTE: No comiences tus respuestas con saludos o frases como "Hola", "Claro", "Por supuesto", etc. Responde directamente a la consulta."""
 
-def get_relevant_context(rewritten_input, vault_embeddings, vault_content, top_k=3):
+def get_relevant_context(query, vault_embeddings, vault_content, top_k=3):
     print(f"{YELLOW}[DEBUG] get_relevant_context() - Starting context retrieval{RESET_COLOR}")
-    print(f"{YELLOW}[DEBUG] get_relevant_context() - Input query: {rewritten_input}{RESET_COLOR}")
+    print(f"{YELLOW}[DEBUG] get_relevant_context() - Input query: {query}{RESET_COLOR}")
     print(f"{YELLOW}[DEBUG] get_relevant_context() - Requested top_k: {top_k}{RESET_COLOR}")
     
     if vault_embeddings.nelement() == 0:
@@ -56,7 +56,7 @@ def get_relevant_context(rewritten_input, vault_embeddings, vault_content, top_k
     print(f"{YELLOW}[DEBUG] get_relevant_context() - Generating embeddings for input{RESET_COLOR}")
     start_time = time.time()
     try:
-        input_embedding_response = ollama.embeddings(model='mxbai-embed-large', prompt=rewritten_input)
+        input_embedding_response = ollama.embeddings(model='mxbai-embed-large', prompt=query)
         input_embedding = input_embedding_response["embedding"]
         print(f"{YELLOW}[DEBUG] get_relevant_context() - Embedding generation took {time.time() - start_time:.2f} seconds{RESET_COLOR}")
     except Exception as e:
@@ -80,51 +80,6 @@ def get_relevant_context(rewritten_input, vault_embeddings, vault_content, top_k
     
     return relevant_context
 
-def rewrite_query(user_input, conversation_history, ollama_model):
-    print(f"{BLUE}[DEBUG] rewrite_query() - Starting query rewriting{RESET_COLOR}")
-    print(f"{BLUE}[DEBUG] rewrite_query() - Original query: {user_input}{RESET_COLOR}")
-    print(f"{BLUE}[DEBUG] rewrite_query() - Using model: {ollama_model}{RESET_COLOR}")
-    
-    context = "\n".join([f"{msg['role']}: {msg['content']}" for msg in conversation_history[-2:]])
-    print(f"{BLUE}[DEBUG] rewrite_query() - Context length: {len(context)} characters{RESET_COLOR}")
-    
-    prompt = f"""Expande la siguiente consulta de manera que capture su esencia, pero sin limitarse estrictamente al contexto.
-    Objetivos de la reescritura:
-    
-    - Preservar la intención y el significado central de la consulta original
-    - Ampliar y aclarar la consulta para hacerla más específica e informativa para recuperar el contexto relevante
-    - Evitar introducir nuevos temas o consultas que se desvíen de la consulta original
-    - NUNCA RESPONDER la consulta original, sino enfocarse en reformularla y expandirla en una nueva consulta
-    
-    Devuelve SOLO el texto de la consulta reescrita, sin ningún formato o explicaciones adicionales.
-    
-    Conversation History:
-    {context}
-    
-    Original query: [{user_input}]
-    
-    Rewritten query: 
-    """
-    
-    print(f"{BLUE}[DEBUG] rewrite_query() - Sending request to model{RESET_COLOR}")
-    start_time = time.time()
-    try:
-        response = client.chat.completions.create(
-            model=ollama_model,
-            messages=[{"role": "system", "content": prompt}],
-            max_tokens=200,
-            n=1,
-            temperature=0.5,
-        )
-        rewritten = response.choices[0].message.content.strip()
-        print(f"{BLUE}[DEBUG] rewrite_query() - Request took {time.time() - start_time:.2f} seconds{RESET_COLOR}")
-        print(f"{BLUE}[DEBUG] rewrite_query() - Rewritten query: {rewritten}{RESET_COLOR}")
-        return rewritten
-    except Exception as e:
-        print(f"{RED}[DEBUG] rewrite_query() - Error: {str(e)}{RESET_COLOR}")
-        print(f"{BLUE}[DEBUG] rewrite_query() - Falling back to original query{RESET_COLOR}")
-        return user_input
-
 def ollama_chat_processing(user_input, ollama_model='llama3:latest'):
     global conversation_history, vault_embeddings_tensor, vault_content
     
@@ -135,21 +90,12 @@ def ollama_chat_processing(user_input, ollama_model='llama3:latest'):
     
     conversation_history.append({"role": "user", "content": user_input})
     
-    if len(conversation_history) > 1:
-        try:
-            rewritten_query = rewrite_query(user_input, conversation_history, ollama_model)
-            print(f"{PINK}Original Query: {user_input}{RESET_COLOR}")
-            print(f"{PINK}Rewritten Query: {rewritten_query}{RESET_COLOR}")
-        except Exception as e:
-            print(f"{RED}[DEBUG] ollama_chat_processing() - Error rewriting query: {str(e)}{RESET_COLOR}")
-            rewritten_query = user_input
-    else:
-        print(f"{NEON_GREEN}[DEBUG] ollama_chat_processing() - First message, skipping rewrite{RESET_COLOR}")
-        rewritten_query = user_input
+    # Use the original query directly without rewriting
+    print(f"{PINK}Query: {user_input}{RESET_COLOR}")
     
     try:
         print(f"{NEON_GREEN}[DEBUG] ollama_chat_processing() - Getting relevant context{RESET_COLOR}")
-        relevant_context = get_relevant_context(rewritten_query, vault_embeddings_tensor, vault_content)
+        relevant_context = get_relevant_context(user_input, vault_embeddings_tensor, vault_content)
         if relevant_context:
             context_str = "\n".join(relevant_context)
             print(f"Context Pulled from Documents: \n\n{CYAN}{context_str}{RESET_COLOR}")
