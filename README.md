@@ -1,12 +1,7 @@
 # ChatBotLLM
-Chatbot trained to answer specific requests about a township.
+Chatbot trained to answer specific requests about a township using RAG and pytorch.
 
 ```bash
-pip3 install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
+pip3 install -r requirements.txt
 ```
-if torch.backends.mps.is_available():
-    mps_device = torch.device("mps")
-    x = torch.ones(1, device=mps_device)
-    print (x)
-else:
-    print ("MPS device not found.")
+
