@@ -16,7 +16,7 @@ pip3 install -r requirements.txt
 
 **Usage:**
 
-1. `upload.py`: This script takes a PDF file, cleans it, and transforms it into a `vault.txt` file. This file is used to feed information to the LLM for the RAG process.
+1. `upload.py`: This script takes a PDF or JSON file, cleans it, and transforms it into a `vault.txt` file. This file is used to feed information to the LLM for the RAG process.
 2. `server.py`: This is the main application file. It uses the OpenAI API, runs the selected LLM model locally (via Ollama) and create a Flask server to make requests from an application.
 
 ## Configuration Adjustments for `server.py`
