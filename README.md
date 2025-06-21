@@ -10,7 +10,7 @@ Chatbot trained to answer specific requests about a document using PyTorch and R
 **Setup:**
 
 ```bash
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 
 ```
 
