@@ -1,4 +1,4 @@
-# ChatBotLLM
+# RAG-Chatbot
 
 Chatbot trained to answer specific requests about a document using PyTorch and RAG (Retrieval Augmented Generation) technique.
 
